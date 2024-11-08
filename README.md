@@ -1,3 +1,3 @@
-# mta-automated-metadata-management
+# mta-tac-metadata-collection
 
-An automated metadata collection and management system for the Mount Allison University Libraries &amp; Archives. (Currently only a prototype for *Theory and Applications of Categories*.)
+Collecting and managing metadata for MtA's *Theory and Applications of Categories* journal.
