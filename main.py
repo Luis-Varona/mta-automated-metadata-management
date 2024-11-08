@@ -1,9 +1,13 @@
 # %%
-import requests
-import re
 import numpy as np
-from io import StringIO
+import re
+import requests
+
 from datetime import datetime as dt
+from io import StringIO
+from os import makedirs
+
+makedirs('data', exist_ok = True)
 
 # %%
 class StringBuilder:
@@ -33,12 +37,12 @@ def get_volume_titles() -> None:
         line = next(source_iter)
     
     volume_titles = dict(reversed(list(volume_titles.items())))
-    np.save('TAC_Metadata/volume_titles.npy', volume_titles)
+    np.save('data/volume_titles.npy', volume_titles)
 
 get_volume_titles()
 
 def volume_title(n: int) -> str:
-    volume_titles = np.load('TAC_Metadata/volume_titles.npy', allow_pickle = True).item()
+    volume_titles = np.load('data/volume_titles.npy', allow_pickle = True).item()
     title = volume_titles[n]
     
     if title.isdigit():
@@ -313,16 +317,16 @@ def save_author_ids(authors: list[str]) -> None:
             author_ids[author] = id
             id += 1
     
-    np.save('TAC_Metadata/author_ids.npy', author_ids)
+    np.save('data/author_ids.npy', author_ids)
 
 save_author_ids(authors)
 
 def get_author_id(author: str) -> int:
-    author_ids = np.load('TAC_Metadata/author_ids.npy', allow_pickle = True).item()
+    author_ids = np.load('data/author_ids.npy', allow_pickle = True).item()
     return author_ids[author]
 
 # %%
-f = open('TAC_Metadata/article_metadata.txt', 'w')
+f = open('data/article_metadata.txt', 'w')
 
 for article in articles:
     f.write(f'File source: {article.pdf_src}\n')
@@ -336,7 +340,7 @@ for article in articles:
 f.close()
 
 # %%
-f = open('TAC_Metadata/XML_files.txt', 'w')
+f = open('data/XML_files.txt', 'w')
 
 for i, article in enumerate(articles):
     f.write(f'FILE #{i + 1}:\n')
