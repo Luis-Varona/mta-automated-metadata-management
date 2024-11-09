@@ -52,3 +52,20 @@ def save_author_ids(authors: list[str], *, path: str = '') -> None:
     
     makedirs(path, exist_ok = True)
     np.savez_compressed(path + '/author_ids.npz', author_ids=author_ids)
+
+# %%
+def save_metadata(articles: list, *, path: str = '') -> None:
+    if path != '':
+        makedirs(path, exist_ok = True)
+    
+    metadata = [article.get_XML(i) for i, article in enumerate(articles, 1)]
+    f = open(path + '/XML_files.txt', 'w')
+    
+    for i, xml in enumerate(metadata, 1):
+        f.write(f'ARTICLE NO. {i}:\n')
+        f.write(f'{"-" * 92}\n')
+        f.write(xml + '\n')
+        f.write(f'{"-" * 92}\n\n')
+    
+    f.close()
+    np.savez_compressed(path + '/metadata.npz', metadata=metadata)
