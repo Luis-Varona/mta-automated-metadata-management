@@ -50,7 +50,6 @@ def save_author_ids(authors: list[str], *, path: str = '') -> None:
             author_ids[author] = id
             id += 1
     
-    makedirs(path, exist_ok = True)
     np.savez_compressed(path + '/author_ids.npz', author_ids=author_ids)
 
 # %%
