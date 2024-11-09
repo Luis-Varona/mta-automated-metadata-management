@@ -7,6 +7,7 @@ from datetime import datetime as dt
 from io import StringIO
 from os import makedirs
 
+
 # %%
 class StringBuilder:
     def __init__(self):
@@ -17,6 +18,7 @@ class StringBuilder:
     
     def to_string(self):
         return self._file_str.getvalue()
+
 
 # %%
 class Article:
@@ -29,8 +31,10 @@ class Article:
         self.__set_issue_ident__(source)
         self.__set_page_range__(source)
     
+    
     def __repr__(self) -> str:
         return re.sub(f"\[|\]|[']", '', f'{self.authors}, ({self.year})')
+    
     
     def get_XML(self, file_id: int) -> str:
         date = dt.now().strftime('%Y-%m-%d')
@@ -44,9 +48,9 @@ class Article:
         
         XML.append(f'{tab}<id type="internal" advice="ignore">{"MEOW"}</id>\n')
         XML.append(f'{tab}<submission_file PUSHEEN="MEOW" id="{file_id}" PUSHEEN="MEOW">\n')
-        XML.append(f'{tab * 2}<name locale="en">{article.pdf_src.split("/")[-1]}</name>\n')
+        XML.append(f'{tab * 2}<name locale="en">{self.pdf_src.split("/")[-1]}</name>\n')
         XML.append(f'{tab * 2}<file id="{file_id}" filesize="{filesize}" extension="pdf">\n')
-        XML.append(f'{tab * 3}<href src="{article.pdf_src}"/>\n')
+        XML.append(f'{tab * 3}<href src="{self.pdf_src}"/>\n')
         XML.append(f'{tab * 2}</file>\n')
         XML.append(f'{tab}</submission_file>\n')
         
@@ -98,15 +102,16 @@ class Article:
         
         return XML.to_string()
     
+    
     def __set_pdf_src__(self, source: str) -> None:
-        source_iter = iter([line.strip() for line in source])
+        source_iter = (line.strip() for line in source.split('\n'))
         
         try:
             valid = lambda line: 'citation_pdf_url' not in line
             target = lambda line: re.search(r'\d[.]pdf', line) is not None
             src_line = next(line for line in source_iter if valid(line) and target(line))
         except StopIteration:
-            source_iter = iter([line.strip() for line in source])
+            source_iter = (line.strip() for line in source.split('\n'))
             target = lambda line: re.search(r'\d[.](dvi|ps)', line) is not None
             src_line = next(line for line in source_iter if target(line))   
         
@@ -114,8 +119,9 @@ class Article:
         src = re.sub(r'[.](dvi|ps)', '.pdf', src)
         self.pdf_src = src
     
+    
     def __set_title__(self, source: str) -> None:
-        source_iter = iter([line.strip() for line in source])
+        source_iter = (line.strip() for line in source.split('\n'))
         next(line for line in source_iter if '<title>' in line)
         line = next(source_iter)
         title_lines = []
@@ -127,8 +133,9 @@ class Article:
         title = re.sub(' +', ' ', ' '.join(title_lines)).strip(' ,')
         self.title = title
     
+    
     def __set_authors__(self, source: str) -> None:
-        source_iter = iter([line.strip() for line in source])
+        source_iter = (line.strip() for line in source.split('\n'))
         next(line for line in source_iter if '<h2>' in line)
         line = next(source_iter)
         author_lines = []
@@ -149,8 +156,9 @@ class Article:
         
         self.authors = authors
     
+    
     def __set_abstract__(self, source: str) -> str:
-        source_iter = iter([line.strip() for line in source])
+        source_iter = (line.strip() for line in source.split('\n'))
         next(line for line in source_iter if '</h2>' in line)
         next(line for line in source_iter if '<p>' in line)
         line = next(source_iter)
@@ -163,8 +171,9 @@ class Article:
         abstract = re.sub(' +', ' ', ' '.join(abstract_lines)).strip()
         self.abstract = abstract
     
+    
     def __set_keywords__(self, source: str) -> None:
-        source_iter = iter([line.strip() for line in source])
+        source_iter = (line.strip() for line in source.split('\n'))
         line = next(line for line in source_iter if 'Keywords:' in line)
         keyword_lines = []
         
@@ -190,8 +199,9 @@ class Article:
         
         self.keywords = keywords
     
+    
     def __set_issue_ident__(self, source: str) -> None:
-        source_iter = iter(reversed([line.strip() for line in source]))
+        source_iter = iter(reversed([line.strip() for line in source.split('\n')]))
         info = next(line for line in source_iter if 'Vol.' in line).split(' ')
         info = [bit.strip(' ,') for bit in info]
         
@@ -205,8 +215,9 @@ class Article:
         
         self.volume, self.year = volume, year
     
+    
     def __set_page_range__(self, source: str) -> None:
-        def pp_idxs(line : str) -> tuple[int, int]:
+        def pp_idxs(line: str) -> tuple[int, int]:
             search1 = re.search(r'pp \d+-+\d+', line)
             search2 = re.search(r'pp\d+-+\d+', line)
             search3 = re.search(r'pp[.] \d+-+\d+', line)
@@ -228,7 +239,7 @@ class Article:
             
             return idxs
         
-        source_iter = iter(reversed([line.strip() for line in source]))
+        source_iter = iter(reversed([line.strip() for line in source.split('\n')]))
         pp_line = next(line for line in source_iter if pp_idxs(line) is not None)
         idxs = pp_idxs(pp_line)
         
@@ -238,25 +249,30 @@ class Article:
         
         self.start_page, self.end_page = start_page, end_page
     
-    volume_titles = np.load('data/volume_titles.npy', allow_pickle = True).item()
-    author_ids = np.load('data/author_ids.npy', allow_pickle = True).item()
     
     def __get_volume_title__(self) -> str:
-        title = self.volume_titles[self.volume]
+        volume_titles = np.load(
+            'data/volume_titles.npz', allow_pickle = True
+        )['volume_titles'].item()
+        title = volume_titles[self.volume]
         
         if title.isdigit():
             title = None
         
         return title
     
+    
     def __get_author_id__(self, author: str) -> int:
-        return self.author_ids[author]
+        author_ids = np.load(
+            'data/author_ids.npz', allow_pickle = True
+        )['author_ids'].item()
+        return author_ids[author]
+
 
 # %%
 def save_volume_titles() -> None:
-    resp = requests.get('http://www.tac.mta.ca/tac/')
-    source = [line.strip() for line in resp.text.split('\n')]
-    source_iter = iter(source)
+    source = requests.get('http://www.tac.mta.ca/tac/').text
+    source_iter = (line.strip() for line in source.split('\n'))
     
     reg = re.compile(r'Vol[.] \d+')
     line = next(line for line in source_iter if re.search(reg, line) is not None)
@@ -269,19 +285,16 @@ def save_volume_titles() -> None:
         line = next(source_iter)
     
     volume_titles = dict(reversed(list(volume_titles.items())))
-    np.save('data/volume_titles.npy', volume_titles)
+    np.savez_compressed('data/volume_titles.npz', volume_titles = volume_titles)
 
-def save_abstract_sources() -> None:
+
+def save_sources() -> None:
     site = 'http://www.tac.mta.ca/tac/'
-    resp = requests.get(site)
-    site_source = [line.strip() for line in resp.text.split('\n')]
+    site_source = [line.strip() for line in requests.get(site).text.split('\n')]
+    links = np.unique([line.split('"')[1] for line in site_source if 'abs.html' in line])
+    sources = [requests.get(site + link).text for link in links]
+    np.savez_compressed('data/sources.npz', sources = sources)
 
-    links = [line.split('"')[1] for line in site_source if 'abs.html' in line]
-    links = np.unique(links)
-
-    sources = [requests.get(site + link).text.split('\n') for link in links]
-    sources = np.array(sources, object)
-    np.save('data/abstract_sources.npy', sources)
 
 def save_author_ids(authors: list[str]) -> None:
     author_ids = {}
@@ -292,34 +305,38 @@ def save_author_ids(authors: list[str]) -> None:
             author_ids[author] = id
             id += 1
     
-    np.save('data/author_ids.npy', author_ids)
+    np.savez_compressed('data/author_ids.npz', author_ids = author_ids)
+
 
 # %%
 makedirs('data', exist_ok = True)
-save_abstract_sources()
 save_volume_titles()
+save_sources()
+
 
 # %%
-sources = np.load('data/abstract_sources.npy', allow_pickle = True)
-comparator = lambda article: (article.volume, article.start_page)
+sources = np.load('data/sources.npz')['sources']
 articles = [Article(source) for source in sources]
-articles = sorted(articles, key = comparator)
+articles = sorted(articles, key = lambda article: (article.volume, article.start_page))
+
 
 # %%
 authors_list = [article.authors for article in articles]
 authors = [author for sublist in authors_list for author in sublist]
 save_author_ids(authors)
 
+
 # %%
 f = open('data/XML_files.txt', 'w')
 
 for i, article in enumerate(articles):
-    f.write(f'FILE #{i + 1}:\n')
+    f.write(f'FILE NO. {i + 1}:\n')
     f.write(f'{"-" * 80}\n')
     f.write(article.get_XML(i + 1))
     f.write(f'{"-" * 80}\n\n')
 
 f.close()
+
 
 # %%
 authors_temp, idxs = np.unique(authors, return_index = True)
