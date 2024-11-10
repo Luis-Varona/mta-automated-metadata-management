@@ -1,7 +1,10 @@
 # %%
 import numpy as np
-from article import Article
-from save_data import save_volume_titles, save_sources, save_author_ids, save_metadata
+import re
+import requests
+
+from article import Article # Relative import from article.py
+from os import makedirs
 
 # %%
 def main():
@@ -17,12 +20,80 @@ def main():
     save_author_ids(authors, path='data')
     save_metadata(articles, path='data')
 
+# %%
+def save_volume_titles(*, path: str = '') -> None:
+    if path != '':
+        makedirs(path, exist_ok = True)
+    
+    source = requests.get('http://www.tac.mta.ca/tac/').text
+    source_iter = (line.strip() for line in source.split('\n'))
+    
+    reg = re.compile(r'Vol[.] \d+')
+    line = next(line for line in source_iter if re.search(reg, line) is not None)
+    volume_titles = {}
+    
+    while re.search(reg, line) is not None:
+        vol = int(re.search(r'\d+', re.search(reg, line).group()).group())
+        title = re.search(r'[-]\s[^<]+</a>', line).group()[2:-4]
+        volume_titles[vol] = title
+        line = next(source_iter)
+    
+    volume_titles = dict(reversed(list(volume_titles.items())))
+    np.savez_compressed(path + '/volume_titles.npz', volume_titles=volume_titles)
+
+# %%
+def save_sources(*, path: str = '') -> None:
+    if path != '':
+        makedirs(path, exist_ok = True)
+    
+    site = 'http://www.tac.mta.ca/tac/'
+    site_source = [line.strip() for line in requests.get(site).text.split('\n')]
+    links = np.unique([line.split('"')[1] for line in site_source if 'abs.html' in line])
+    sources = [requests.get(site + link).text for link in links]
+    np.savez_compressed(path + '/sources.npz', sources=sources)
+
+# %%
+def save_author_ids(authors: list[str], *, path: str = '') -> None:
+    if path != '':
+        makedirs(path, exist_ok = True)
+    
+    author_ids = {}
+    id = 1
+    
+    for author in authors:
+        if author not in author_ids:
+            author_ids[author] = id
+            id += 1
+    
+    np.savez_compressed(path + '/author_ids.npz', author_ids=author_ids)
+
+# %%
+def save_metadata(articles: list, *, path: str = '') -> None:
+    if path != '':
+        makedirs(path, exist_ok = True)
+    
+    metadata = [article.get_XML(i) for i, article in enumerate(articles, 1)]
+    f = open(path + '/XML_files.txt', 'w')
+    
+    for i, xml in enumerate(metadata, 1):
+        f.write(f'ARTICLE NO. {i}:\n')
+        f.write(f'{"-" * 92}\n')
+        f.write(xml + '\n')
+        f.write(f'{"-" * 92}\n\n')
+    
+    f.close()
+    np.savez_compressed(path + '/metadata.npz', metadata=metadata)
+
+# %%
 main()
 
 # %% For future debugging
 # metadata = np.load('data/metadata.npz')['metadata']
+
+# authors = np.load('data/author_ids.npz')['author_ids'].keys()
 # authors_temp, idxs = np.unique(authors, return_index=True)
 # authors_unique = authors_temp[np.argsort(idxs)]
+
 # family_names = [author.split()[-1] for author in authors_unique]
 # repeats = [name for name in family_names if family_names.count(name) > 1]
 # flags = [author for author in authors_unique if author.split()[-1] in repeats]
