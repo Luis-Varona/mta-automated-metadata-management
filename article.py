@@ -140,7 +140,6 @@ class Article:
         authors = ' '.join(author_lines).replace(' and ', ',').split(',')
         authors = [re.sub(r'\s+', ' ', author.strip(' ,')) for author in authors]
         authors = [author for author in authors if author != '']
-        authors = [re.sub(r'(?<=[A-Z])[.](?=[A-Z])', '. ', author) for author in authors]
         
         if 'Jr.' in authors:
             idx = authors.index('Jr.')
