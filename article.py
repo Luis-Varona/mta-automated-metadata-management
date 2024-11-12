@@ -18,7 +18,7 @@ class Article:
         self.__set_page_range__(source)
     
     def __repr__(self):
-        return re.sub(f"\[|\]|[']", '', f'{self.authors}, ({self.year})')
+        return re.sub(r"\[|\]|[']", '', f'{self.authors}, ({self.year})')
     
     def get_XML(self, file_id: int) -> str:
         volume_titles = np.load(
@@ -37,7 +37,7 @@ class Article:
         XML.append('<?xml version="1.0" encoding="utf-8"?>\n')
         XML.append(f'<article PUSHEEN="MEOW" locale="en" date_submitted="{date}" PUSHEEN="MEOW">\n')
         
-        XML.append(f'{tab}<id type="internal" advice="ignore">{"MEOW"}</id>\n')
+        XML.append(f'{tab}<id type="internal" advice="ignore">MEOW</id>\n')
         XML.append(f'{tab}<submission_file PUSHEEN="MEOW" id="{file_id}" PUSHEEN="MEOW">\n')
         XML.append(f'{tab * 2}<name locale="en">{self.pdf_src.split("/")[-1]}</name>\n')
         XML.append(f'{tab * 2}<file id="{file_id}" filesize="{filesize}" extension="pdf">\n')
@@ -47,8 +47,8 @@ class Article:
         
         XML.append(f'{tab}<publication PUSHEEN="MEOW">\n')
         
-        XML.append(f'{tab * 2}<id type="internal" advice="ignore">{"MEOW"}</id>\n')
-        XML.append(f'{tab * 2}<id type="doi" advice="update">{"MEOW"}</id>\n')
+        XML.append(f'{tab * 2}<id type="internal" advice="ignore">MEOW</id>\n')
+        XML.append(f'{tab * 2}<id type="doi" advice="update">MEOW</id>\n')
         XML.append(f'{tab * 2}<title locale="en">{self.title}</title>\n')
         XML.append(f'{tab * 2}<abstract locale="en">&lt;p&gt;{self.abstract}{"MEOW"}&lt;/p&gt;</abstract>\n')
         XML.append(f'{tab * 2}<licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>\n')
@@ -69,14 +69,14 @@ class Article:
             XML.append(f'{tab * 3}<author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">\n')
             XML.append(f'{tab * 4}<givenname locale="en">{given_name}</givenname>\n')
             XML.append(f'{tab * 4}<familyname locale="en">{family_name}</familyname>\n')
-            XML.append(f'{tab * 4}<email>{"MEOW"}</email>\n')
+            XML.append(f'{tab * 4}<email>MEOW</email>\n')
             XML.append(f'{tab * 3}</author>\n')
         XML.append(f'{tab * 2}</authors>\n')
         
         XML.append(f'{tab * 2}<article_galley PUSHEEN="MEOW">\n')
-        XML.append(f'{tab * 3}<id type="internal" advice="ignore">{"MEOW"}</id>\n')
+        XML.append(f'{tab * 3}<id type="internal" advice="ignore">MEOW</id>\n')
         XML.append(f'{tab * 3}<name locale="en">PDF</name>\n')
-        XML.append(f'{tab * 3}<seq>{"MEOW"}</seq>\n')
+        XML.append(f'{tab * 3}<seq>MEOW</seq>\n')
         XML.append(f'{tab * 3}<submission_file_ref id="{file_id}"/>\n')
         XML.append(f'{tab * 2}</article_galley>\n')
         
@@ -101,13 +101,14 @@ class Article:
             valid = lambda line: 'citation_pdf_url' not in line
             target = lambda line: re.search(r'\d[.]pdf', line) is not None
             src_line = next(line for line in source_iter if valid(line) and target(line))
+            src = src_line.split('"')[1]
         except StopIteration:
             source_iter = (line.strip() for line in source.split('\n'))
             target = lambda line: re.search(r'\d[.](dvi|ps)', line) is not None
             src_line = next(line for line in source_iter if target(line))   
+            src = src_line.split('"')[1]
+            src = re.sub(r'[.](dvi|ps)', '.pdf', src)
         
-        src = src_line.split('"')[1]
-        src = re.sub(r'[.](dvi|ps)', '.pdf', src)
         self.pdf_src = src
     
     def __set_title__(self, source: str) -> None:
@@ -140,7 +141,7 @@ class Article:
         
         if 'Jr.' in authors:
             idx = authors.index('Jr.')
-            authors[idx - 1] = authors[idx - 1] + ', Jr.'
+            authors[idx - 1] = f'{authors[idx - 1]}, Jr.'
             authors.pop(idx)
         
         self.authors = authors
@@ -172,10 +173,10 @@ class Article:
             line = next(source_iter)
         
         keywords_line = ' '.join(keyword_lines)
-        keywords = [word for word in re.split(r',|;', keywords_line)]
+        keywords = re.split(r',|;', keywords_line)
         keywords = [word.replace('Keywords:', ',') for word in keywords]
         keywords = [word.strip(' ,;.') for word in keywords]
-        keywords = [re.sub(r'\s+|[\"]|[\']', ' ', word) for word in keywords]
+        keywords = [re.sub(r'\s+', ' ', word) for word in keywords]
         keywords = [word.replace('- ', '-') for word in keywords]
         keywords = [word for word in keywords if word != '']
         
@@ -194,11 +195,7 @@ class Article:
         vol_idx = info.index('Vol.') + 1
         volume, year = int(info[vol_idx]), info[vol_idx + 1]
         
-        if year.startswith('CT'):
-            year = int(year[2:])
-        else:
-            year = int(year)
-        
+        year = int(year[2:]) if year.startswith('CT') else int(year)
         self.volume, self.year = volume, year
     
     def __set_page_range__(self, source: str) -> None:
