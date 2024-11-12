@@ -24,10 +24,10 @@ class Article:
         volume_titles = np.load(
             'data/volume_titles.npz', allow_pickle=True
         )['volume_titles'].item()
-        
         author_ids = np.load(
             'data/author_ids.npz', allow_pickle=True
         )['author_ids'].item()
+        ids_this = [author_ids[author] for author in self.authors]
         
         date = dt.now().strftime('%Y-%m-%d')
         filesize = int(requests.head(self.pdf_src).headers['Content-Length'])
@@ -35,22 +35,22 @@ class Article:
         
         XML = StringBuilder()
         XML.append('<?xml version="1.0" encoding="utf-8"?>\n')
-        XML.append(f'<article PUSHEEN="MEOW" locale="en" date_submitted="{date}" PUSHEEN="MEOW">\n')
+        XML.append(f'<article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">\n')
         
-        XML.append(f'{tab}<id type="internal" advice="ignore">MEOW</id>\n')
-        XML.append(f'{tab}<submission_file PUSHEEN="MEOW" id="{file_id}" PUSHEEN="MEOW">\n')
+        XML.append(f'{tab}<id type="internal" advice="ignore">{file_id}</id>\n')
+        XML.append(f'{tab}<submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">\n')
         XML.append(f'{tab * 2}<name locale="en">{self.pdf_src.split("/")[-1]}</name>\n')
         XML.append(f'{tab * 2}<file id="{file_id}" filesize="{filesize}" extension="pdf">\n')
         XML.append(f'{tab * 3}<href src="{self.pdf_src}"/>\n')
         XML.append(f'{tab * 2}</file>\n')
         XML.append(f'{tab}</submission_file>\n')
         
-        XML.append(f'{tab}<publication PUSHEEN="MEOW">\n')
+        XML.append(f'{tab}<publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="0" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">\n')
         
-        XML.append(f'{tab * 2}<id type="internal" advice="ignore">MEOW</id>\n')
-        XML.append(f'{tab * 2}<id type="doi" advice="update">MEOW</id>\n')
+        XML.append(f'{tab * 2}<id type="internal" advice="ignore">{file_id}</id>\n')
+        XML.append(f'{tab * 2}<id type="doi" advice="update">10.1119/5.0158200</id>\n')
         XML.append(f'{tab * 2}<title locale="en">{self.title}</title>\n')
-        XML.append(f'{tab * 2}<abstract locale="en">&lt;p&gt;{self.abstract}{"MEOW"}&lt;/p&gt;</abstract>\n')
+        XML.append(f'{tab * 2}<abstract locale="en">{self.abstract}"MEOW"</abstract>\n')
         XML.append(f'{tab * 2}<licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>\n')
         XML.append(f'{tab * 2}<copyrightHolder locale="en">author</copyrightHolder>\n')
         XML.append(f'{tab * 2}<copyrightYear>{self.year}</copyrightYear>\n')
@@ -60,23 +60,23 @@ class Article:
             XML.append(f'{tab * 3}<keyword>{word}</keyword>\n')
         XML.append(f'{tab * 2}</keywords>\n')
         
-        XML.append(f'{tab * 2}<authors PUSHEEN="MEOW">\n')
+        XML.append(f'{tab * 2}<authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">\n')
         for i, author in enumerate(self.authors):
-            author_id = author_ids[author]
+            author_id = ids_this[i]
             names = author.split()
             given_name = ' '.join(names[:-1])
             family_name = names[-1]
             XML.append(f'{tab * 3}<author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">\n')
             XML.append(f'{tab * 4}<givenname locale="en">{given_name}</givenname>\n')
             XML.append(f'{tab * 4}<familyname locale="en">{family_name}</familyname>\n')
-            XML.append(f'{tab * 4}<email>MEOW</email>\n')
+            XML.append(f'{tab * 4}<email>madeup@email.org</email>\n')
             XML.append(f'{tab * 3}</author>\n')
         XML.append(f'{tab * 2}</authors>\n')
         
-        XML.append(f'{tab * 2}<article_galley PUSHEEN="MEOW">\n')
-        XML.append(f'{tab * 3}<id type="internal" advice="ignore">MEOW</id>\n')
+        XML.append(f'{tab * 2}<article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">\n')
+        XML.append(f'{tab * 3}<id type="internal" advice="ignore">{file_id}</id>\n')
         XML.append(f'{tab * 3}<name locale="en">PDF</name>\n')
-        XML.append(f'{tab * 3}<seq>MEOW</seq>\n')
+        XML.append(f'{tab * 3}<seq>0</seq>\n')
         XML.append(f'{tab * 3}<submission_file_ref id="{file_id}"/>\n')
         XML.append(f'{tab * 2}</article_galley>\n')
         
@@ -126,11 +126,14 @@ class Article:
     
     def __set_authors__(self, source: str) -> None:
         source_iter = (line.strip() for line in source.split('\n'))
-        next(line for line in source_iter if '<h2>' in line)
-        line = next(source_iter)
         author_lines = []
+        next(line for line in source_iter if '</h1>' in line)
+        line = next(source_iter)
         
-        while '</h2>' not in line:
+        while line == '' or '<h2>' in line:
+            line = next(source_iter)
+        
+        while '<h2>' not in line and '</h2>' not in line:
             author_lines.append(line)
             line = next(source_iter)
         

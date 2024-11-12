@@ -85,14 +85,3 @@ def save_metadata(articles: list, *, path: str = '') -> None:
 
 # %%
 main()
-
-# %% For future debugging
-# metadata = np.load('data/metadata.npz')['metadata']
-
-# authors = np.load('data/author_ids.npz')['author_ids'].keys()
-# authors_temp, idxs = np.unique(authors, return_index=True)
-# authors_unique = authors_temp[np.argsort(idxs)]
-
-# family_names = [author.split()[-1] for author in authors_unique]
-# repeats = [name for name in family_names if family_names.count(name) > 1]
-# flags = [author for author in authors_unique if author.split()[-1] in repeats]
