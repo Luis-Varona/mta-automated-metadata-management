@@ -96,4 +96,3 @@ main()
 # family_names = [author.split()[-1] for author in authors_unique]
 # repeats = [name for name in family_names if family_names.count(name) > 1]
 # flags = [author for author in authors_unique if author.split()[-1] in repeats]
-
