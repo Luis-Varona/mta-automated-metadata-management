@@ -8,8 +8,8 @@ from os import makedirs
 
 # %%
 def main():
-    save_volume_titles(path='data')
-    save_sources(path='data')
+    # save_volume_titles(path='data')
+    # save_sources(path='data')
     
     sources = np.load('data/sources.npz')['sources']
     articles = [Article(source) for source in sources]
