@@ -157,7 +157,7 @@ class Article:
             abstract_lines.append(line)
             line = next(source_iter)
         
-        abstract = re.sub(' +', ' ', ' '.join(abstract_lines)).strip()
+        abstract = re.sub(r'\s+', ' ', ' '.join(abstract_lines)).strip()
         self.abstract = abstract
     
     def __set_keywords__(self, source: str) -> None:
