@@ -40,10 +40,10 @@ class Article:
         out.write(f'{t * 2}<id type="internal" advice="ignore">{file_id}</id>\n')
         
         out.write(f'{t * 2}<submission_file ' \
-                  'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" ' \
-                  'created_at="{date}" date_created="" file_id="{file_id}" ' \
-                  'stage="submission" updated_at="{date}" viewable="true" ' \
-                  'genre="Article Text" source_submission_file_id="{file_id}" ' \
+                  f'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" ' \
+                  f'created_at="{date}" date_created="" file_id="{file_id}" ' \
+                  f'stage="submission" updated_at="{date}" viewable="true" ' \
+                  f'genre="Article Text" source_submission_file_id="{file_id}" ' \
                   'uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">\n')
         out.write(f'{t * 3}<name locale="en">{self.pdf_src.split("/")[-1]}</name>\n')
         out.write(f'{t * 3}<file id="{file_id}" filesize="{size}" extension="pdf">\n')
@@ -53,8 +53,8 @@ class Article:
         
         out.write(f'{t * 2}<publication ' \
                   'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" ' \
-                  'status="3" primary_contact_id="{ids_this[0]}" url_path="" ' \
-                  'seq="{seq_in_vol}" access_status="0" date_published="{date}" ' \
+                  f'status="3" primary_contact_id="{ids_this[0]}" url_path="" ' \
+                  f'seq="{seq_in_vol}" access_status="0" date_published="{date}" ' \
                   'section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">\n')
         
         out.write(f'{t * 3}<id type="internal" advice="ignore">{file_id}</id>\n')
@@ -79,7 +79,7 @@ class Article:
             given_name = ' '.join(names[:-1])
             family_name = names[-1]
             out.write(f'{t * 4}<author include_in_browse="true" user_group_ref="Author" ' \
-                      'seq="{i}" id="{author_id}">\n')
+                      f'seq="{i}" id="{author_id}">\n')
             out.write(f'{t * 5}<givenname locale="en">{given_name}</givenname>\n')
             out.write(f'{t * 5}<familyname locale="en">{family_name}</familyname>\n')
             out.write(f'{t * 5}<email>madeup@email.org</email>\n')

@@ -2,13 +2,13 @@
 <articles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">550</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="550" created_at="2024-11-13" date_created="" file_id="550" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="550" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-01.pdf</name>
       <file id="550" filesize="454796" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/1/31-01.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="474" url_path="" seq="0" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">550</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">The Euler characteristic of an enriched category</title>
@@ -22,12 +22,12 @@
         <keyword>monoidal model categories</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="474">
           <givenname locale="en">Kazunori</givenname>
           <familyname locale="en">Noguchi</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="475">
           <givenname locale="en">Kohei</givenname>
           <familyname locale="en">Tanaka</familyname>
           <email>madeup@email.org</email>
@@ -49,13 +49,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">551</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="551" created_at="2024-11-13" date_created="" file_id="551" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="551" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-02.pdf</name>
       <file id="551" filesize="482442" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/2/31-02.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="476" url_path="" seq="1" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">551</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">The heart of a combinatorial model category</title>
@@ -72,7 +72,7 @@
         <keyword>filtered colimit</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="476">
           <givenname locale="en">Zhen Lin</givenname>
           <familyname locale="en">Low</familyname>
           <email>madeup@email.org</email>
@@ -94,13 +94,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">552</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="552" created_at="2024-11-13" date_created="" file_id="552" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="552" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-03.pdf</name>
       <file id="552" filesize="304078" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/3/31-03.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="477" url_path="" seq="2" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">552</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">On the magnitude of a finite dimensional algebra</title>
@@ -118,17 +118,17 @@
         <keyword>Cartan determinant conjecture</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="477">
           <givenname locale="en">Joseph</givenname>
           <familyname locale="en">Chuang</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="478">
           <givenname locale="en">Alastair</givenname>
           <familyname locale="en">King</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="2" id="124">
           <givenname locale="en">Tom</givenname>
           <familyname locale="en">Leinster</familyname>
           <email>madeup@email.org</email>
@@ -150,13 +150,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">553</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="553" created_at="2024-11-13" date_created="" file_id="553" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="553" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-04.pdf</name>
       <file id="553" filesize="440222" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/4/31-04.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="479" url_path="" seq="3" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">553</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">A two-dimensional Birkhoff's theorem</title>
@@ -169,7 +169,7 @@
         <keyword>equational subcategories</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="479">
           <givenname locale="en">Matej</givenname>
           <familyname locale="en">Dostal</familyname>
           <email>madeup@email.org</email>
@@ -191,13 +191,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">554</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="554" created_at="2024-11-13" date_created="" file_id="554" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="554" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-05.pdf</name>
       <file id="554" filesize="613507" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/5/31-05.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="404" url_path="" seq="4" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">554</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Enriched algebraic theories and monads for a system of arities</title>
@@ -214,7 +214,7 @@
         <keyword>free cocompletion</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="404">
           <givenname locale="en">Rory B. B.</givenname>
           <familyname locale="en">Lucyshyn-Wright</familyname>
           <email>madeup@email.org</email>
@@ -236,13 +236,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">555</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="555" created_at="2024-11-13" date_created="" file_id="555" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="555" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-06.pdf</name>
       <file id="555" filesize="619178" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/6/31-06.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="404" url_path="" seq="5" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">555</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Relative symmetric monoidal closed categories I: Autoenrichment and change of base</title>
@@ -263,7 +263,7 @@
         <keyword>pseudomonoid</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="404">
           <givenname locale="en">Rory B. B.</givenname>
           <familyname locale="en">Lucyshyn-Wright</familyname>
           <email>madeup@email.org</email>
@@ -285,13 +285,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">556</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="556" created_at="2024-11-13" date_created="" file_id="556" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="556" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-07.pdf</name>
       <file id="556" filesize="472032" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/7/31-07.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="480" url_path="" seq="6" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">556</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Transfinite limits in topos theory</title>
@@ -304,7 +304,7 @@
         <keyword>pro-etale topology</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="480">
           <givenname locale="en">Moritz</givenname>
           <familyname locale="en">Kerz</familyname>
           <email>madeup@email.org</email>
@@ -326,13 +326,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">557</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="557" created_at="2024-11-13" date_created="" file_id="557" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="557" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-08.pdf</name>
       <file id="557" filesize="322615" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/8/31-08.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="481" url_path="" seq="7" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">557</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">A characterization of central extensions in the variety of quandles</title>
@@ -349,17 +349,17 @@
         <keyword>categorical Galois theory</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="481">
           <givenname locale="en">Val&eacute;rian</givenname>
           <familyname locale="en">Even</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="65">
           <givenname locale="en">Marino</givenname>
           <familyname locale="en">Gran</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="2" id="300">
           <givenname locale="en">Andrea</givenname>
           <familyname locale="en">Montoli</familyname>
           <email>madeup@email.org</email>
@@ -381,13 +381,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">558</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="558" created_at="2024-11-13" date_created="" file_id="558" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="558" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-09.pdf</name>
       <file id="558" filesize="629206" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/9/31-09.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="482" url_path="" seq="8" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">558</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">On biadjoint triangles</title>
@@ -403,7 +403,7 @@
         <keyword>biadjunctions</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="482">
           <givenname locale="en">Fernando Lucatelli</givenname>
           <familyname locale="en">Nunes</familyname>
           <email>madeup@email.org</email>
@@ -425,13 +425,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">559</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="559" created_at="2024-11-13" date_created="" file_id="559" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="559" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-10.pdf</name>
       <file id="559" filesize="940187" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/10/31-10.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="483" url_path="" seq="9" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">559</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Some insights on bicategories of fractions: representations and compositions of 2-morphisms</title>
@@ -445,7 +445,7 @@
         <keyword>pseudofunctors</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="483">
           <givenname locale="en">Matteo</givenname>
           <familyname locale="en">Tommasini</familyname>
           <email>madeup@email.org</email>
@@ -467,13 +467,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">560</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="560" created_at="2024-11-13" date_created="" file_id="560" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="560" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-11.pdf</name>
       <file id="560" filesize="518992" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/11/31-11.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="407" url_path="" seq="10" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">560</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Stacks and sheaves of categories, II</title>
@@ -488,7 +488,7 @@
         <keyword>model category</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="407">
           <givenname locale="en">Alexandru E.</givenname>
           <familyname locale="en">Stanculescu</familyname>
           <email>madeup@email.org</email>
@@ -510,13 +510,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">561</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="561" created_at="2024-11-13" date_created="" file_id="561" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="561" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-12.pdf</name>
       <file id="561" filesize="398989" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/12/31-12.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="371" url_path="" seq="11" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">561</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Spectra of compact regular frames</title>
@@ -535,17 +535,17 @@
         <keyword>scattered frame</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="371">
           <givenname locale="en">Guram</givenname>
           <familyname locale="en">Bezhanishvili</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="484">
           <givenname locale="en">David</givenname>
           <familyname locale="en">Gabelaia</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="2" id="485">
           <givenname locale="en">Mamuka</givenname>
           <familyname locale="en">Jibladze</familyname>
           <email>madeup@email.org</email>
@@ -567,13 +567,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">562</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="562" created_at="2024-11-13" date_created="" file_id="562" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="562" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-13.pdf</name>
       <file id="562" filesize="242211" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/13/31-13.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="486" url_path="" seq="12" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">562</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">A Cotriple Construction of a Simplicial Algebra used in the Definition of Higher Chow Groups</title>
@@ -586,7 +586,7 @@
         <keyword>simplicial algebra</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="486">
           <givenname locale="en">Jason</givenname>
           <familyname locale="en">Polak</familyname>
           <email>madeup@email.org</email>
@@ -608,13 +608,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">563</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="563" created_at="2024-11-13" date_created="" file_id="563" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="563" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-14.pdf</name>
       <file id="563" filesize="468738" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/14/31-14.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="393" url_path="" seq="13" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">563</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Construction of categorical bundles from local data</title>
@@ -629,17 +629,17 @@
         <keyword>Principal bundles</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="393">
           <givenname locale="en">Saikat</givenname>
           <familyname locale="en">Chatterjee</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="394">
           <givenname locale="en">Amitabha</givenname>
           <familyname locale="en">Lahiri</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="2" id="395">
           <givenname locale="en">Ambar N.</givenname>
           <familyname locale="en">Sengupta</familyname>
           <email>madeup@email.org</email>
@@ -661,13 +661,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">564</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="564" created_at="2024-11-13" date_created="" file_id="564" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="564" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-15.pdf</name>
       <file id="564" filesize="416072" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/15/31-15.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="84" url_path="" seq="14" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">564</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Partial linearity and partial natural Mal'tsevness</title>
@@ -683,7 +683,7 @@
         <keyword>internal groupoids.}</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="84">
           <givenname locale="en">Dominique</givenname>
           <familyname locale="en">Bourn</familyname>
           <email>madeup@email.org</email>
@@ -705,13 +705,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">565</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="565" created_at="2024-11-13" date_created="" file_id="565" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="565" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-16.pdf</name>
       <file id="565" filesize="396851" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/16/31-16.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="487" url_path="" seq="15" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">565</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Relative internal actions</title>
@@ -728,12 +728,12 @@
         <keyword>relative internal actions</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="487">
           <givenname locale="en">James Richard Andrew</givenname>
           <familyname locale="en">Gray</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="383">
           <givenname locale="en">Tamar</givenname>
           <familyname locale="en">Janelidze-Gray</familyname>
           <email>madeup@email.org</email>
@@ -755,13 +755,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">566</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="566" created_at="2024-11-13" date_created="" file_id="566" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="566" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-17.pdf</name>
       <file id="566" filesize="337494" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/17/31-17.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="488" url_path="" seq="16" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">566</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Right delocalization of model categories</title>
@@ -776,7 +776,7 @@
         <keyword>diagram</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="488">
           <givenname locale="en">Bruce R</givenname>
           <familyname locale="en">Corrigan-Salter</familyname>
           <email>madeup@email.org</email>
@@ -798,13 +798,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">567</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="567" created_at="2024-11-13" date_created="" file_id="567" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="567" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-18.pdf</name>
       <file id="567" filesize="270797" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/18/31-18.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="489" url_path="" seq="17" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">567</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">The morphism axiom for n-angulated categories</title>
@@ -818,17 +818,17 @@
         <keyword>morphism axiom</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="489">
           <givenname locale="en">Emilie</givenname>
           <familyname locale="en">Arentz-Hansen</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="490">
           <givenname locale="en">Petter Andreas</givenname>
           <familyname locale="en">Bergh</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="2" id="491">
           <givenname locale="en">Marius</givenname>
           <familyname locale="en">Thaule</familyname>
           <email>madeup@email.org</email>
@@ -850,13 +850,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">568</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="568" created_at="2024-11-13" date_created="" file_id="568" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="568" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-19.pdf</name>
       <file id="568" filesize="336048" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/19/31-19.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="86" url_path="" seq="18" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">568</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">The snail lemma</title>
@@ -871,7 +871,7 @@
         <keyword>strong homotopy kernel</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="86">
           <givenname locale="en">Enrico M.</givenname>
           <familyname locale="en">Vitale</familyname>
           <email>madeup@email.org</email>
@@ -893,13 +893,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">569</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="569" created_at="2024-11-13" date_created="" file_id="569" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="569" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-20.pdf</name>
       <file id="569" filesize="564412" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/20/31-20.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="492" url_path="" seq="19" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">569</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Linear structures on locales</title>
@@ -915,12 +915,12 @@
         <keyword>Fell topology</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="492">
           <givenname locale="en">Pedro</givenname>
           <familyname locale="en">Resende</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="493">
           <givenname locale="en">Joao Paulo</givenname>
           <familyname locale="en">Santos</familyname>
           <email>madeup@email.org</email>
@@ -942,13 +942,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">570</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="570" created_at="2024-11-13" date_created="" file_id="570" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="570" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-21.pdf</name>
       <file id="570" filesize="732762" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/21/31-21.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="494" url_path="" seq="20" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">570</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Representation and character theory of finite categorical groups</title>
@@ -963,12 +963,12 @@
         <keyword>drinfeld double</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="494">
           <givenname locale="en">Nora</givenname>
           <familyname locale="en">Ganter</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="495">
           <givenname locale="en">Robert</givenname>
           <familyname locale="en">Usher</familyname>
           <email>madeup@email.org</email>
@@ -990,13 +990,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">571</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="571" created_at="2024-11-13" date_created="" file_id="571" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="571" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-22.pdf</name>
       <file id="571" filesize="433178" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/22/31-22.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="413" url_path="" seq="21" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">571</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Classical and relative realizability</title>
@@ -1013,12 +1013,12 @@
         <keyword>non-localic Boolean toposes</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="413">
           <givenname locale="en">Jaap van</givenname>
           <familyname locale="en">Oosten</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="496">
           <givenname locale="en">Tingxiang</givenname>
           <familyname locale="en">Zou</familyname>
           <email>madeup@email.org</email>
@@ -1040,13 +1040,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">572</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="572" created_at="2024-11-13" date_created="" file_id="572" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="572" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-23.pdf</name>
       <file id="572" filesize="943675" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/23/31-23.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="352" url_path="" seq="22" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">572</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">The linearity of traces in monoidal categories and bicategories</title>
@@ -1061,12 +1061,12 @@
         <keyword>absolute colimit</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="352">
           <givenname locale="en">Kate</givenname>
           <familyname locale="en">Ponto</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="267">
           <givenname locale="en">Michael</givenname>
           <familyname locale="en">Shulman</familyname>
           <email>madeup@email.org</email>
@@ -1088,13 +1088,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">573</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="573" created_at="2024-11-13" date_created="" file_id="573" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="573" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-24.pdf</name>
       <file id="573" filesize="439096" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/24/31-24.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="497" url_path="" seq="23" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">573</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">The local Joyal model structure</title>
@@ -1111,7 +1111,7 @@
         <keyword>absolute colimit</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="497">
           <givenname locale="en">Nicholas J.</givenname>
           <familyname locale="en">Meadows</familyname>
           <email>madeup@email.org</email>
@@ -1133,13 +1133,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">574</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="574" created_at="2024-11-13" date_created="" file_id="574" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="574" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-25.pdf</name>
       <file id="574" filesize="526150" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/25/31-25.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="35" url_path="" seq="24" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">574</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Homotopy locally presentable enriched categories</title>
@@ -1154,12 +1154,12 @@
         <keyword>locally presentable category</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="35">
           <givenname locale="en">Stephen</givenname>
           <familyname locale="en">Lack</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="16">
           <givenname locale="en">Jiri</givenname>
           <familyname locale="en">Rosicky</familyname>
           <email>madeup@email.org</email>
@@ -1181,13 +1181,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">575</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="575" created_at="2024-11-13" date_created="" file_id="575" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="575" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-26.pdf</name>
       <file id="575" filesize="360474" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/26/31-26.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="498" url_path="" seq="25" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">575</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Compact closed bicategories</title>
@@ -1203,7 +1203,7 @@
         <keyword>18D15</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="498">
           <givenname locale="en">Michael</givenname>
           <familyname locale="en">Stay</familyname>
           <email>madeup@email.org</email>
@@ -1225,13 +1225,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">576</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="576" created_at="2024-11-13" date_created="" file_id="576" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="576" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-27.pdf</name>
       <file id="576" filesize="276792" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/27/31-27.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="499" url_path="" seq="26" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">576</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Strict $\omega$-categories are monadic over polygraphs</title>
@@ -1245,7 +1245,7 @@
         <keyword>monads</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="499">
           <givenname locale="en">Francois</givenname>
           <familyname locale="en">Metayer</familyname>
           <email>madeup@email.org</email>
@@ -1267,13 +1267,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">577</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="577" created_at="2024-11-13" date_created="" file_id="577" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="577" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-28.pdf</name>
       <file id="577" filesize="482088" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/28/31-28.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="500" url_path="" seq="27" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">577</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">The Fermat functors</title>
@@ -1287,7 +1287,7 @@
         <keyword>the deleting infinitesimal functor</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="500">
           <givenname locale="en">Enxin</givenname>
           <familyname locale="en">Wu</familyname>
           <email>madeup@email.org</email>
@@ -1309,13 +1309,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">578</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="578" created_at="2024-11-13" date_created="" file_id="578" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="578" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-29.pdf</name>
       <file id="578" filesize="270255" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/29/31-29.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="501" url_path="" seq="28" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">578</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Enriched Yoneda lemma</title>
@@ -1329,7 +1329,7 @@
         <keyword>left-tensored categories</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="501">
           <givenname locale="en">Vladimir</givenname>
           <familyname locale="en">Hinich</familyname>
           <email>madeup@email.org</email>
@@ -1351,13 +1351,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">579</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="579" created_at="2024-11-13" date_created="" file_id="579" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="579" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-30.pdf</name>
       <file id="579" filesize="323861" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/30/31-30.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="93" url_path="" seq="29" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">579</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Projectivity, continuity and adjointness: quantales, Q-posets and Q-modules</title>
@@ -1373,7 +1373,7 @@
         <keyword>quantale module</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="93">
           <givenname locale="en">Susan</givenname>
           <familyname locale="en">Niefield</familyname>
           <email>madeup@email.org</email>
@@ -1395,13 +1395,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">580</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="580" created_at="2024-11-13" date_created="" file_id="580" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="580" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-31.pdf</name>
       <file id="580" filesize="738551" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/31/31-31.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="502" url_path="" seq="30" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">580</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Tannaka theory over sup-lattices and descent for topoi</title>
@@ -1417,12 +1417,12 @@
         <keyword>Topos</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="502">
           <givenname locale="en">Eduardo J.</givenname>
           <familyname locale="en">Dubuc</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="503">
           <givenname locale="en">Martin</givenname>
           <familyname locale="en">Szyld</familyname>
           <email>madeup@email.org</email>
@@ -1444,13 +1444,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">581</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="581" created_at="2024-11-13" date_created="" file_id="581" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="581" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-32.pdf</name>
       <file id="581" filesize="402993" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/32/31-32.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="504" url_path="" seq="31" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">581</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">On the representations of 2-groups in Baez-Crans 2-vector spaces</title>
@@ -1465,12 +1465,12 @@
         <keyword>2-categories</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="504">
           <givenname locale="en">Benjamin A.</givenname>
           <familyname locale="en">Heredia</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="505">
           <givenname locale="en">Josep</givenname>
           <familyname locale="en">Elgueta</familyname>
           <email>madeup@email.org</email>
@@ -1492,13 +1492,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">582</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="582" created_at="2024-11-13" date_created="" file_id="582" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="582" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-33.pdf</name>
       <file id="582" filesize="779913" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/33/31-33.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="506" url_path="" seq="32" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">582</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Compositories and gleaves</title>
@@ -1516,12 +1516,12 @@
         <keyword>relational database</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="506">
           <givenname locale="en">Cecilia</givenname>
           <familyname locale="en">Flori</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="402">
           <givenname locale="en">Tobias</givenname>
           <familyname locale="en">Fritz</familyname>
           <email>madeup@email.org</email>
@@ -1543,13 +1543,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">583</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="583" created_at="2024-11-13" date_created="" file_id="583" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="583" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-34.pdf</name>
       <file id="583" filesize="414928" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/34/31-34.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="507" url_path="" seq="33" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">583</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">On Evrard's homotopy fibrant replacement of a functor</title>
@@ -1563,7 +1563,7 @@
         <keyword>Evrard's theorem</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="507">
           <givenname locale="en">Boris</givenname>
           <familyname locale="en">Shoikhet</familyname>
           <email>madeup@email.org</email>
@@ -1585,13 +1585,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">584</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="584" created_at="2024-11-13" date_created="" file_id="584" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="584" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-35.pdf</name>
       <file id="584" filesize="469582" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/35/31-35.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="289" url_path="" seq="34" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">584</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Monads on dagger categories</title>
@@ -1606,12 +1606,12 @@
         <keyword>Eilenberg-Moore algebra</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="289">
           <givenname locale="en">Chris</givenname>
           <familyname locale="en">Heunen</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="508">
           <givenname locale="en">Martti</givenname>
           <familyname locale="en">Karvonen</familyname>
           <email>madeup@email.org</email>
@@ -1633,13 +1633,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">585</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="585" created_at="2024-11-13" date_created="" file_id="585" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="585" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-36.pdf</name>
       <file id="585" filesize="578567" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/36/31-36.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="454" url_path="" seq="35" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">585</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Products of families of types and $(\Pi,\lambda)$-structures on C-systems</title>
@@ -1653,7 +1653,7 @@
         <keyword>dependent product</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="454">
           <givenname locale="en">Vladimir</givenname>
           <familyname locale="en">Voevodsky</familyname>
           <email>madeup@email.org</email>
@@ -1675,13 +1675,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">586</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="586" created_at="2024-11-13" date_created="" file_id="586" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="586" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-37.pdf</name>
       <file id="586" filesize="588881" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/37/31-37.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="466" url_path="" seq="36" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">586</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">A functorial approach to Dedekind completions and the representation of vector lattices and l-algebras by normal functions</title>
@@ -1702,17 +1702,17 @@
         <keyword>representation</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="466">
           <givenname locale="en">G.</givenname>
           <familyname locale="en">Bezhanishvili</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="1" id="469">
           <givenname locale="en">P. J.</givenname>
           <familyname locale="en">Morandi</familyname>
           <email>madeup@email.org</email>
         </author>
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="2" id="509">
           <givenname locale="en">B.</givenname>
           <familyname locale="en">Olberding</familyname>
           <email>madeup@email.org</email>
@@ -1734,13 +1734,13 @@
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">587</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="587" created_at="2024-11-13" date_created="" file_id="587" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="587" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">31-38.pdf</name>
       <file id="587" filesize="590592" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/31/38/31-38.pdf"/>
       </file>
     </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="510" url_path="" seq="37" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">587</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Cosheafification</title>
@@ -1758,7 +1758,7 @@
         <keyword>accessible categories</keyword>
       </keywords>
       <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+        <author include_in_browse="true" user_group_ref="Author" seq="0" id="510">
           <givenname locale="en">Andrei V.</givenname>
           <familyname locale="en">Prasolov</familyname>
           <email>madeup@email.org</email>
