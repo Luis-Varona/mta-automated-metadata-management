@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<articles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">199</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">15-01.pdf</name>
+      <file id="199" filesize="317937" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/15/1/15-01.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">199</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Predicative algebraic set theory</title>
+      <abstract locale="en"><p>In this paper the machinery and results developed in [Awodey et al., 2004] are extended to the study of constructive set theories. Specifically, we introduce two constructive set theories <b>BCST</b> and <b>CST</b> and prove that they are sound and complete with respect to models in categories with certain structure. Specifically, <i>basic categories of classes</i> and <i>categories of classes</i> are axiomatized and shown to provide models of the aforementioned set theories. Finally, models of these theories are constructed in the category of <i>ideals</i>.</p><p>2000 MSC: 18B05, 18B25, 18C10, 03G30, 03E70, 03F60.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2004</copyrightYear>
+      <keywords locale="en">
+        <keyword>algebraic set theory</keyword>
+        <keyword>categorical logic</keyword>
+        <keyword>predicativity</keyword>
+        <keyword>ideal completion</keyword>
+        <keyword>dependent type theory</keyword>
+        <keyword>$\Pi$-pretopos</keyword>
+        <keyword>small maps</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Steve</givenname>
+          <familyname locale="en">Awodey</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Michael A.</givenname>
+          <familyname locale="en">Warren</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">199</id>
+        <name locale="en">PDF</name>
+        <seq>0</seq>
+        <submission_file_ref id="199"/>
+      </article_galley>
+      <issue_identification>
+        <volume>15</volume>
+        <year>2004</year>
+        <title locale="en">CT2004</title>
+      </issue_identification>
+      <pages>1-39</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">200</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">15-02.pdf</name>
+      <file id="200" filesize="250792" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/15/2/15-02.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">200</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Reflective Kleisli subcategories of the category of Eilenberg-Moore algebras for factorization monads</title>
+      <abstract locale="en"><p>It is well known that for any monad, the associated Kleisli category is embedded in the category of Eilenberg-Moore algebras as the free ones. We discovered some interesting examples in which this embedding is reflective; that is, it has a left adjoint. To understand this phenomenon we introduce and study a class of monads arising from factorization systems, and thereby termed factorization monads. For them we show that under some simple conditions on the factorization system the free algebras are a full reflective subcategory of the algebras. We provide various examples of this situation of a combinatorial nature.</p><p>2000 MSC: 18A25, 18A40, 18C20, 05A10.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2004</copyrightYear>
+      <keywords locale="en">
+        <keyword>factorization systems</keyword>
+        <keyword>monads</keyword>
+        <keyword>Kleisli categories</keyword>
+        <keyword>Schanuel topos</keyword>
+        <keyword>Joyal species</keyword>
+        <keyword>combinatorial structures</keyword>
+        <keyword>power series</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Marcelo</givenname>
+          <familyname locale="en">Fiore</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Matias</givenname>
+          <familyname locale="en">Menni</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">200</id>
+        <name locale="en">PDF</name>
+        <seq>1</seq>
+        <submission_file_ref id="200"/>
+      </article_galley>
+      <issue_identification>
+        <volume>15</volume>
+        <year>2004</year>
+        <title locale="en">CT2004</title>
+      </issue_identification>
+      <pages>40-65</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">201</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">15-03.pdf</name>
+      <file id="201" filesize="322406" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/15/3/15-03.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">201</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Model structures for homotopy of internal categories</title>
+      <abstract locale="en"><p>The aim of this paper is to describe Quillen model category structures on the category CatC of internal categories and functors in a given finitely complete category C. Several non-equivalent notions of internal equivalence exist; to capture these notions, the model structures are defined relative to a given Grothendieck topology on C. Under mild conditions on C, the regular epimorphism topology determines a model structure where we is the class of weak equivalences of internal categories (in the sense of Bunge and Pare). For a Grothendieck topos C we get a structure that, though different from Joyal and Tierney's, has an equivalent homotopy category. In case C is semi-abelian, these weak equivalences turn out to be homology isomorphisms, and the model structure on CatC induces a notion of homotopy of internal crossed modules. In case C is the category Gp of groups and homomorphisms, it reduces to the case of crossed modules of groups. The trivial topology on a category C determines a model structure on CatC where we is the class of strong equivalences (homotopy equivalences), fib the class of internal functors with the homotopy lifting property, and cof the class of functors with the homotopy extension property. As a special case, the ``folk'' Quillen model category structure on the category Cat = CatSet of small categories is recovered.</p><p>2000 MSC: Primary 18G55 18G50 18D35; Secondary 20J05 18G25 18G30.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2004</copyrightYear>
+      <keywords locale="en">
+        <keyword>internal category</keyword>
+        <keyword>Quillen model category</keyword>
+        <keyword>homotopy</keyword>
+        <keyword>homology</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">T.</givenname>
+          <familyname locale="en">Everaert</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">R.W.</givenname>
+          <familyname locale="en">Kieboom</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">T. Van der</givenname>
+          <familyname locale="en">Linden</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">201</id>
+        <name locale="en">PDF</name>
+        <seq>2</seq>
+        <submission_file_ref id="201"/>
+      </article_galley>
+      <issue_identification>
+        <volume>15</volume>
+        <year>2004</year>
+        <title locale="en">CT2004</title>
+      </issue_identification>
+      <pages>66-94</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">202</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">15-04.pdf</name>
+      <file id="202" filesize="462296" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/15/4/15-04.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">202</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">The shape of a category up to directed homotopy</title>
+      <abstract locale="en"><p>This work is a contribution to a recent field, Directed Algebraic Topology. Categories which appear as fundamental categories of `directed structures', e.g. ordered topological spaces, have to be studied up to appropriate notions of <i>directed homotopy equivalence</i>, which are more general than ordinary equivalence of categories. Here we introduce <i> past</i> and <i> future equivalences </i> of categories - sort of symmetric versions of an adjunction - and use them and their combinations to get `directed models' of a category; in the simplest case, these are the join of the <i>least full reflective</i> and the <i>least full coreflective</i> subcategory.</p><p>2000 MSC: 55Pxx, 18A40, 68Q85.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2004</copyrightYear>
+      <keywords locale="en">
+        <keyword>omotopy theory</keyword>
+        <keyword>adjunctions</keyword>
+        <keyword>reflective subcategories</keyword>
+        <keyword>directed algebraic topology</keyword>
+        <keyword>fundamental category</keyword>
+        <keyword>concurrent processes</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Marco</givenname>
+          <familyname locale="en">Grandis</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">202</id>
+        <name locale="en">PDF</name>
+        <seq>3</seq>
+        <submission_file_ref id="202"/>
+      </article_galley>
+      <issue_identification>
+        <volume>15</volume>
+        <year>2004</year>
+        <title locale="en">CT2004</title>
+      </issue_identification>
+      <pages>95-146</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">203</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">15-05.pdf</name>
+      <file id="203" filesize="186110" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/15/5/15-05.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">203</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Algebraic Models of Intuitionistic Theories of Sets and Classes</title>
+      <abstract locale="en"><p>This paper constructs models of intuitionistic set theory in suitable categories. First, a Basic Intuitionistic Set Theory (BIST) is stated, and the categorical semantics are given. Second, we give a notion of an <i>ideal</i> over a category, using which one can build a model of BIST in which a given topos occurs as the sets. And third, a sheaf model is given of a Basic Intuitionistic Class Theory conservatively extending BIST. The paper extends the results in Awodey, Butz, Simpson and Streicher (2003) by introducing a new and perhaps more natural notion of ideal, and in the class theory of part three.</p><p>2000 MSC: 18B05, 18B25, 18C10, 03G30, 03E70, 03F60.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2004</copyrightYear>
+      <keywords locale="en">
+        <keyword>algebraic set theory</keyword>
+        <keyword>topos theory</keyword>
+        <keyword>sheaf theory</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">S.</givenname>
+          <familyname locale="en">Awodey</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">H.</givenname>
+          <familyname locale="en">Forssell</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">203</id>
+        <name locale="en">PDF</name>
+        <seq>4</seq>
+        <submission_file_ref id="203"/>
+      </article_galley>
+      <issue_identification>
+        <volume>15</volume>
+        <year>2004</year>
+        <title locale="en">CT2004</title>
+      </issue_identification>
+      <pages>147-163</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">204</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">15-06.pdf</name>
+      <file id="204" filesize="176827" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/15/6/15-06.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">204</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Generic commutative separable algebras and cospans of graphs</title>
+      <abstract locale="en"><p>We show that the generic symmetric monoidal category with a commutative separable algebra which has a $\Sigma$-family of actions is the category of cospans of finite $\Sigma$-labelled graphs restricted to finite sets as objects, thus providing a syntax for automata on the alphabet $\Sigma$. We use this result to produce semantic functors for $\Sigma$-automata.</p><p>2000 MSC: 18B20, 18D10, 68Q05, 68Q85.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2004</copyrightYear>
+      <keywords locale="en">
+        <keyword>separable algebra</keyword>
+        <keyword>cospan category</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">R.</givenname>
+          <familyname locale="en">Rosebrugh</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">N.</givenname>
+          <familyname locale="en">Sabadini</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">R.F.C.</givenname>
+          <familyname locale="en">Walters</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">204</id>
+        <name locale="en">PDF</name>
+        <seq>5</seq>
+        <submission_file_ref id="204"/>
+      </article_galley>
+      <issue_identification>
+        <volume>15</volume>
+        <year>2004</year>
+        <title locale="en">CT2004</title>
+      </issue_identification>
+      <pages>164-177</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">205</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">15-07.pdf</name>
+      <file id="205" filesize="182801" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/15/7/15-07.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">205</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">A Galois theory with stable units for simplicial sets</title>
+      <abstract locale="en"><p>We recall and reformulate certain known constructions, in order to make a convenient setting for obtaining generalized monotone-light factorizations in the sense of A. Carboni, G. Janelidze, G. M. Kelly and R. Par&eacute;. This setting is used to study the existence of monotone-light factorizations both in categories of simplicial objects and in categories of internal categories. It is shown that there is a non-trivial monotone-light factorization for simplicial sets, such that the monotone-light factorization for reflexive graphs via reflexive relations is a special case of it, obtained by truncation. More generally, we will show that there exists a monotone-light factorization associated with every full subcategory <i>Mono(F_n)</i>, <i>n >= 0</i>, consisting of all simplicial sets whose unit morphisms are monic for the localization $F_n:\mathbf{Set}^{\Delta^{op}}\rightarrow\mathbf{Set}^{\Delta^{op}_n}$, which truncates each simplicial set after the object of n-simplices. The monotone-light factorization for categories via preorders is as well derived from the proposed setting. We also show that, for regular Mal'cev categories, the reflection of internal groupoids into internal equivalence relations necessarily produces monotone-light factorizations. It turns out that all these reflections do have stable units, in the sense of C. Cassidy, M. H&eacute;bert and G. M. Kelly, giving rise to Galois theories.</p><p>2000 MSC: 18A32, 18A40, 18G30, 12F10, 55U10, 08B05, 18B25.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2004</copyrightYear>
+      <keywords locale="en">
+        <keyword>simplicial object</keyword>
+        <keyword>simplicial set</keyword>
+        <keyword>internal category</keyword>
+        <keyword>internal preorder</keyword>
+        <keyword>regular category</keyword>
+        <keyword>Mal'cev category</keyword>
+        <keyword>descent theory</keyword>
+        <keyword>Galois theory</keyword>
+        <keyword>reflection with stable units</keyword>
+        <keyword>monotone-light factorization</keyword>
+        <keyword>Kan extension</keyword>
+        <keyword>elementary topos</keyword>
+        <keyword>geometric morphism</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Joao J.</givenname>
+          <familyname locale="en">Xarez</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">205</id>
+        <name locale="en">PDF</name>
+        <seq>6</seq>
+        <submission_file_ref id="205"/>
+      </article_galley>
+      <issue_identification>
+        <volume>15</volume>
+        <year>2004</year>
+        <title locale="en">CT2004</title>
+      </issue_identification>
+      <pages>178-193</pages>
+    </publication>
+  </article>
+</articles>

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<articles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">326</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-01.pdf</name>
+      <file id="326" filesize="197183" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/1/23-01.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">326</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Action accessibility for categories of interest</title>
+      <abstract locale="en"><p>We prove that every category of interest (in the sense of G. Orzech) is action accessible in the sense of Bourn and Janelidze. This fact allows us to give an intrinsic description of centers and centralizers in this class of categories. We give also some new examples of categories of interest, mainly arising from Loday's papers.</p><p>2000 MSC: 18G50, 18D35, 03C05, 08C05.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>protomodular categories</keyword>
+        <keyword>action accessible categories</keyword>
+        <keyword>categories of interest</keyword>
+        <keyword>centralizers</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Andrea</givenname>
+          <familyname locale="en">Montoli</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">326</id>
+        <name locale="en">PDF</name>
+        <seq>0</seq>
+        <submission_file_ref id="326"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>7-21</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">327</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-02.pdf</name>
+      <file id="327" filesize="258442" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/2/23-02.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">327</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Homology of n-fold groupoids</title>
+      <abstract locale="en"><p>Any semi-abelian category A appears, via the discrete functor, as a full replete reflective subcategory of the semi-abelian category of internal groupoids in A. This allows one to study the homology of $n$-fold internal groupoids with coefficients in a semi-abelian category A, and to compute explicit higher Hopf formulae. The crucial concept making such computations possible is the notion of protoadditive functor, which can be seen as a natural generalisation of the notion of additive functor.</p><p>2000 MSC: 8G, 20J, 55N35, 18E10, 20L.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>Protoadditive functor</keyword>
+        <keyword>categorical Galois theory</keyword>
+        <keyword>internal groupoid</keyword>
+        <keyword>semi-abelian category</keyword>
+        <keyword>homology</keyword>
+        <keyword>Hopf formula</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Tomas</givenname>
+          <familyname locale="en">Everaert</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Marino</givenname>
+          <familyname locale="en">Gran</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">327</id>
+        <name locale="en">PDF</name>
+        <seq>1</seq>
+        <submission_file_ref id="327"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>22-41</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">328</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-03.pdf</name>
+      <file id="328" filesize="526826" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/3/23-03.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">328</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">The comprehensive factorization and torsors</title>
+      <abstract locale="en"><p>This is an expanded, revised and corrected version of the first author's 1981 preprint. The discussion of one-dimensional cohomology $H^{1}$ in a fairly general category E involves passing to the 2-category Cat(E) of categories E. In particular, the coefficient object is a category B in E and the torsors that $H^{1}$ classifies are particular functors in E. We only impose conditions on E that are satisfied also by Cat(E) and argue that $H^{1}$ for Cat(E) is a kind of $H^{2}$ for E, and so on recursively. For us, it is too much to ask E to be a topos (or even internally complete) since, even if E is, Cat(E) is not. With this motivation, we are led to examine morphisms in E which act as internal families and to internalize the comprehensive factorization of functors into a final functor followed by a discrete fibration. We define B-torsors for a category B in E and prove clutching and classification theorems. The former theorem clutches Cech cocycles to construct torsors while the latter constructs a coefficient category to classify structures locally isomorphic to members of a given internal family of structures. We conclude with applications to examples.</p><p>2000 MSC: 18D35, 18A20, 14F19.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>torsor</keyword>
+        <keyword>internal category</keyword>
+        <keyword>exponentiable morphism</keyword>
+        <keyword>discrete fibration</keyword>
+        <keyword>final functor</keyword>
+        <keyword>comprehensive factorization</keyword>
+        <keyword>locally isomorphic</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Ross</givenname>
+          <familyname locale="en">Street</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Dominic</givenname>
+          <familyname locale="en">Verity</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">328</id>
+        <name locale="en">PDF</name>
+        <seq>2</seq>
+        <submission_file_ref id="328"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>42-75</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">329</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-04.pdf</name>
+      <file id="329" filesize="253948" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/4/23-04.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">329</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Snake Lemma in incomplete relative homological categories</title>
+      <abstract locale="en"><p>The purpose of this paper is to prove a new, <i>incomplete-relative</i>, version of Non-abelian Snake Lemma, where "relative" refers to a distinguished class of normal epimorphisms in the ground category, and "incomplete" refers to omitting all completeness/cocompleteness assumptions not involving that class.</p><p>2000 MSC: 18G50, 18G25, 18A20, 18B10.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>incomplete relative homological category</keyword>
+        <keyword>homological category</keyword>
+        <keyword>normal epimorphism</keyword>
+        <keyword>snake lemma</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Tamar</givenname>
+          <familyname locale="en">Janelidze</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">329</id>
+        <name locale="en">PDF</name>
+        <seq>3</seq>
+        <submission_file_ref id="329"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>76-91</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">330</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-05.pdf</name>
+      <file id="330" filesize="258077" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/5/23-05.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">330</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Monadic approach to Galois descent and cohomology</title>
+      <abstract locale="en"><p>We describe a simplified categorical approach to Galois descent theory. It is well known that Galois descent is a special case of Grothendieck descent, and that under mild additional conditions the category of Grothendieck descent data coincides with the Eilenberg-Moore category of algebras over a suitable monad. This also suggests using monads directly, and our monadic approach to Galois descent makes no reference to Grothendieck descent theory at all. In order to make Galois descent constructions perfectly clear, we also describe their connections with some other related constructions of categorical algebra, and make various explicit calculations, especially with 1-cocycles and 1-dimensional non-abelian cohomology, usually omitted in the literature.</p><p>2000 MSC: 18C15, 18D10.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>Descent theory</keyword>
+        <keyword>Galois theory</keyword>
+        <keyword>monadic functor</keyword>
+        <keyword>group cohomology</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Francis</givenname>
+          <familyname locale="en">Borceux</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Stefaan</givenname>
+          <familyname locale="en">Caenepeel</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">George</givenname>
+          <familyname locale="en">Janelidze</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">330</id>
+        <name locale="en">PDF</name>
+        <seq>4</seq>
+        <submission_file_ref id="330"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>92-112</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">331</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-06.pdf</name>
+      <file id="331" filesize="299725" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/6/23-06.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">331</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Internal crossed modules and Peiffer Condition</title>
+      <abstract locale="en"><p>In this paper we show that in a homological category in the sense of F. Borceux and D. Bourn, the notion of an internal precrossed module corresponding to a star-multiplicative graph, in the sense of G. Janelidze, can be obtained by directly internalizing the usual axioms of a crossed module, via equivariance. We then exhibit some sufficient conditions on a homological category under which this notion coincides with the notion of an internal crossed module due to G. Janelidze. We show that this is the case for any category of distributive $\Omega_2$-groups, in particular for the categories of groups with operations in the sense of G. Orzech.</p><p>2000 MSC: 18D35, 18G50, 20L05, 20J15.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>internal crossed module</keyword>
+        <keyword>reflexive graph</keyword>
+        <keyword>internal action</keyword>
+        <keyword>semiabelian category</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Sandra</givenname>
+          <familyname locale="en">Mantovani</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Giuseppe</givenname>
+          <familyname locale="en">Metere</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">331</id>
+        <name locale="en">PDF</name>
+        <seq>5</seq>
+        <submission_file_ref id="331"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>113-135</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">332</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-07.pdf</name>
+      <file id="332" filesize="206183" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/7/23-07.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">332</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Strongly separable morphisms in general categories</title>
+      <abstract locale="en"><p>We clarify the relationship between separable and covering morphisms in general categories by introducing and studying an intermediate class of morphisms that we call strongly separable.</p><p>2000 MSC: 18A32, 18A40, 13B05, 14H30, 54C10, 57M10.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>separable morphism</keyword>
+        <keyword>strongly separable morphism</keyword>
+        <keyword>separated morphism</keyword>
+        <keyword>compact morphism</keyword>
+        <keyword>covering morphism</keyword>
+        <keyword>factorization system</keyword>
+        <keyword>effective descent morphism</keyword>
+        <keyword>Galois theory</keyword>
+        <keyword>lextensive category</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">G.</givenname>
+          <familyname locale="en">Janelidze</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">W.</givenname>
+          <familyname locale="en">Tholen</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">332</id>
+        <name locale="en">PDF</name>
+        <seq>6</seq>
+        <submission_file_ref id="332"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>136-149</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">333</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-08.pdf</name>
+      <file id="333" filesize="258771" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/8/23-08.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">333</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">The third cohomology group classifies double central extensions</title>
+      <abstract locale="en"><p>We characterise the double central extensions in a semi-abelian category in terms of commutator conditions. We prove that the third cohomology group H^3(Z,A) of an object Z with coefficients in an abelian object A classifies the double central extensions of Z by A.</p><p>2000 MSC: 18G50, 18G60, 20J, 55N.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>cohomology</keyword>
+        <keyword>categorical Galois theory</keyword>
+        <keyword>semi-abelian category</keyword>
+        <keyword>higher central extension</keyword>
+        <keyword>Baer sum</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Diana</givenname>
+          <familyname locale="en">Rodelo</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Tim Van der</givenname>
+          <familyname locale="en">Linden</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">333</id>
+        <name locale="en">PDF</name>
+        <seq>7</seq>
+        <submission_file_ref id="333"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>150-169</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">334</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-09.pdf</name>
+      <file id="334" filesize="288720" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/9/23-09.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">334</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Star-multiplicative graphs in pointed protomodular categories</title>
+      <abstract locale="en"><p>Protomodularity, in the pointed case, is equivalent to the Split Short Five Lemma. It is also well known that this condition implies that every internal category is in fact an internal groupoid. In this work, this is condition (II) and we introduce two other conditions denoted (I) and (III). Under condition (I), every multiplicative graph is an internal category. Under condition (III), every star-multiplicative graph can be extended (uniquely) to a multiplicative graph, a problem raised by G. Janelidze in the semiabelian context. When the three conditions hold, internal groupoids have a simple description, that, in the semiabelian context, correspond to the notion of internal crossed module, in the sense of Janelidze.</p><p>2000 MSC: 18D35.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>Internal category</keyword>
+        <keyword>internal groupoid</keyword>
+        <keyword>reflexive graph</keyword>
+        <keyword>multiplicative graph</keyword>
+        <keyword>star-multiplicative graph</keyword>
+        <keyword>jointly epic pair</keyword>
+        <keyword>admissible pair</keyword>
+        <keyword>jointly epic split extension</keyword>
+        <keyword>split short five lemma</keyword>
+        <keyword>pointed protomodular</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">N.</givenname>
+          <familyname locale="en">Martins-Ferreira</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">334</id>
+        <name locale="en">PDF</name>
+        <seq>8</seq>
+        <submission_file_ref id="334"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>170-198</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">335</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-10.pdf</name>
+      <file id="335" filesize="261166" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/10/23-10.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">335</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">A metric tangential calculus</title>
+      <abstract locale="en"><p>The metric jets, introduced here, generalize the jets (at order one) of Charles Ehresmann. In short, for a ``good'' map f (said to be ``tangentiable'' at a) between metric spaces, we define its metric jet tangent at a (composed of all the maps which are locally lipschitzian at a and tangent to f at a) called the ``tangential'' of f at a, and denoted Tf_a. So, in this metric context, we define a ``new differentiability'' (called ``tangentiability'') which extends the classical differentiability (while preserving most of its properties) to new maps, traditionally pathologic.</p><p>2000 MSC: 58C25, 58C20, 58A20, 54E35, 18D20.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>differential calculus</keyword>
+        <keyword>jets</keyword>
+        <keyword>metric spaces</keyword>
+        <keyword>categories</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Elisabeth</givenname>
+          <familyname locale="en">Burroni</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Jacques</givenname>
+          <familyname locale="en">Penon</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">335</id>
+        <name locale="en">PDF</name>
+        <seq>9</seq>
+        <submission_file_ref id="335"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>199-220</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">336</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-11.pdf</name>
+      <file id="336" filesize="252881" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/11/23-11.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">336</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">The pointed subobject functor, 3 x 3 lemmas, and subtractivity of spans</title>
+      <abstract locale="en"><p>The notion of a <i>subtractive category</i> recently introduced by the author, is a pointed categorical counterpart of the notion of a <i>subtractive variety</i> of universal algebras in the sense of A.~Ursini (recall that a variety is subtractive if its theory contains a constant 0 and a binary term s satisfying s(x,x)=0 and s(x,0)=x). Let us call a pointed regular category $\mathbb{C}$ <i>normal</i> if every regular epimorphism in $\mathbb{C}$ is a normal epimorphism. It is well known that any <i>homological category</i> in the sense of F. Borceux and D. Bourn is both normal and subtractive. We prove that in any subtractive normal category, the upper and lower $3\times 3$ lemmas hold true, which generalizes a similar result for homological categories due to D. Bourn (note that the middle $3\times 3$ lemma holds true if and only if the category is homological). The technique of proof is new: the pointed subobject functor $\mathcal{S}=\mathrm{Sub}(-):\mathbb{C}\rightarrow\mathbf{Set}_*$ turns out to have suitable preservation/reflection properties which allow us to reduce the proofs of these two diagram lemmas to the standard diagram-chasing arguments in $\mathbf{Set}_*$ (alternatively, we could use the more advanced embedding theorem for regular categories due to M.~Barr). The key property of $\mathcal{S}$, which allows to obtain these diagram lemmas, is the preservation of <i>subtractive spans</i>. Subtractivity of a span provides a weaker version of the <i>rule of subtraction</i> --- one of the <i>elementary rules for chasing diagrams</i> in abelian categories, in the sense of S. Mac Lane. A pointed regular category is subtractive if and only if every span in it is subtractive, and moreover, the functor $\mathcal{S}$ not only preserves but also reflects subtractive spans. Thus, subtractivity seems to be exactly what we need in order to prove the upper/lower $3\times 3$ lemmas in a normal category. Indeed, we show that a normal category is subtractive if and only if these $3\times 3$ lemmas hold true in it. Moreover, we show that for any pointed regular category $\mathbb{C}$ (not necessarily a normal one), we have: $\mathbb{C}$ is subtractive if and only if the lower $3\times 3$ lemma holds true in $\mathbb{C}$.</p><p>2000 MSC: 18G50, 18C99.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>subtractive category</keyword>
+        <keyword>normal category</keyword>
+        <keyword>homological category</keyword>
+        <keyword>homological diagram lemmas</keyword>
+        <keyword>diagram chasing</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Zurab</givenname>
+          <familyname locale="en">Janelidze</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">336</id>
+        <name locale="en">PDF</name>
+        <seq>10</seq>
+        <submission_file_ref id="336"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>221-242</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">337</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-12.pdf</name>
+      <file id="337" filesize="150325" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/12/23-12.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">337</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">A categorical approach to integration</title>
+      <abstract locale="en"><p>We present a general treatment of measures and integrals in certain (monoidal closed) categories. Under appropriate conditions the integral can be defined by a universal property, and the universal measure is at the same time a universal multiplicative measure. In the multiplicative case this assignment is right adjoint to the formation of the Boolean algebra of idempotents. Now coproduct preservation yields an approach to product measures.</p><p>2000 MSC: 06E05 16A32, 18A15, 18A30, 18A35, 18A40, 18E05, 28A30, 28A33, 28A40, 28A45, 46G10.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>internal Boolean algebra</keyword>
+        <keyword>universal measure</keyword>
+        <keyword>multiplicative measure</keyword>
+        <keyword>product measure</keyword>
+        <keyword>Boolean algebra of idempotents</keyword>
+        <keyword>symmetric monoidal closed category</keyword>
+        <keyword>cartesian closed category</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Reinhard</givenname>
+          <familyname locale="en">B&ouml;rger</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">337</id>
+        <name locale="en">PDF</name>
+        <seq>11</seq>
+        <submission_file_ref id="337"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>243-250</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">338</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">23-13.pdf</name>
+      <file id="338" filesize="308875" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/23/13/23-13.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">338</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">What are sifted colimits?</title>
+      <abstract locale="en"><p>Sifted colimits, important for algebraic theories, are "almost" just the combination of filtered colimits and reflexive coequalizers. For example, given a finitely cocomplete category $\cal A$, then a functor with domain $\cal A$ preserves sifted colimits iff it preserves filtered colimits and reflexive coequalizers. But for general categories $\cal A$ that statement is not true: we provide a counter-example.</p><p>2000 MSC: 18A30, 18A35.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2010</copyrightYear>
+      <keywords locale="en">
+        <keyword>sifted colimit</keyword>
+        <keyword>reflexive coequalizer</keyword>
+        <keyword>filtered colimit</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">J.</givenname>
+          <familyname locale="en">Adamek</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">J.</givenname>
+          <familyname locale="en">Rosicky</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">E. M.</givenname>
+          <familyname locale="en">Vitale</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">338</id>
+        <name locale="en">PDF</name>
+        <seq>12</seq>
+        <submission_file_ref id="338"/>
+      </article_galley>
+      <issue_identification>
+        <volume>23</volume>
+        <year>2010</year>
+        <title locale="en">Bourn Festschrift</title>
+      </issue_identification>
+      <pages>251-260</pages>
+    </publication>
+  </article>
+</articles>

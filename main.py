@@ -3,20 +3,20 @@ import numpy as np
 import re
 import requests
 
-from article import Article # Relative import from article.py
+from publications import Article, Volume # Relative import from publications.py
 from os import makedirs
 
 # %%
 def main():
-    # save_volume_titles(path='data')
-    # save_sources(path='data')
+    save_volume_titles(path='data')
+    save_sources(path='data')
     
     sources = np.load('data/sources.npz')['sources']
     articles = [Article(source) for source in sources]
     articles = sorted(articles, key=lambda article: (article.volume, article.start_page))
-    authors_list = [article.authors for article in articles]
-    authors = [author for sublist in authors_list for author in sublist]
     
+    author_lists = [article.authors for article in articles]
+    authors = [author for author_list in author_lists for author in author_list]
     save_author_ids(authors, path='data')
     save_metadata(articles, path='data')
 
@@ -29,10 +29,10 @@ def save_volume_titles(*, path: str = '') -> None:
     source_iter = (line.strip() for line in source.split('\n'))
     
     reg = re.compile(r'Vol[.] \d+')
-    line = next(line for line in source_iter if re.search(reg, line) is not None)
+    line = next(line for line in source_iter if re.search(reg, line))
     volume_titles = {}
     
-    while re.search(reg, line) is not None:
+    while re.search(reg, line):
         vol = int(re.search(r'\d+', re.search(reg, line).group()).group())
         title = re.search(r'[-]\s[^<]+</a>', line).group()[2:-4]
         volume_titles[vol] = title
@@ -70,16 +70,30 @@ def save_author_ids(authors: list[str], *, path: str = '') -> None:
 # %%
 def save_metadata(articles: list, *, path: str = '') -> None:
     if path != '':
-        makedirs(path, exist_ok = True)
+        makedirs(f'{path}/xml_files', exist_ok = True)
     
-    metadata = [article.get_XML(i) for i, article in enumerate(articles, 1)]
+    vol_nums = np.load('data/volume_titles.npz',
+                       allow_pickle=True)['volume_titles'].item().keys()
+    metadata = [''] * len(vol_nums)
+    article_iter = iter(articles)
+    article = next(article_iter)
+    first_id = 1
     
-    with open(f'{path}/XML_files.txt', 'w') as f:
-        for i, xml in enumerate(metadata, 1):
-            f.write(f'ARTICLE NO. {i}:\n')
-            f.write(f'{"-" * 92}\n')
-            f.write(xml + '\n')
-            f.write(f'{"-" * 92}\n\n')
+    for vol in vol_nums:
+        article_list = []
+        ct = 0
+        
+        while article and article.volume == vol:
+            article_list.append(article)
+            article = next(article_iter, None)
+            ct += 1
+        
+        metadata[vol - 1] = Volume(article_list, first_id).get_XML()
+        first_id += ct
+    
+    for vol, xml in enumerate(metadata, 1):
+        with open(f'{path}/xml_files/TAC_vol{vol}.xml', 'w') as f:
+            f.write(xml)
     
     np.savez_compressed(f'{path}/metadata.npz', metadata=metadata)
 

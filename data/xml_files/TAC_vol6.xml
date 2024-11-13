@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<articles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">53</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n1.pdf</name>
+      <file id="53" filesize="331119" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/6/n1/n1.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">53</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">\star-Autonomous categories: once more around the track</title>
+      <abstract locale="en"><p>This represents a new and more comprehensive approach to the \star-autonomous categories constructed in the monograph [Barr, 1979]. The main tool in the new approach is the Chu construction. The main conclusion is that the category of separated extensional Chu objects for certain kinds of equational categories is equivalent to two usually distinct subcategories of the categories of uniform algebras of those categories.</p><p>1991 MSC: 18D10, 43A40, 46A70, 51A10.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1999</copyrightYear>
+      <keywords locale="en">
+        <keyword>duality</keyword>
+        <keyword>topological algebras</keyword>
+        <keyword>Chu categories</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Michael</givenname>
+          <familyname locale="en">Barr</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">53</id>
+        <name locale="en">PDF</name>
+        <seq>0</seq>
+        <submission_file_ref id="53"/>
+      </article_galley>
+      <issue_identification>
+        <volume>6</volume>
+        <year>1999</year>
+        <title locale="en">Lambek Festschrift</title>
+      </issue_identification>
+      <pages>5-24</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">54</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n2.pdf</name>
+      <file id="54" filesize="210706" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/6/n2/n2.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">54</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">A bicategorical approach to static modules</title>
+      <abstract locale="en"><p>The purpose of this paper is to indicate some bicategorical properties of ring theory. In this interaction, static modules are analyzed.</p><p>1991 MSC: 18D05, 18E10, 13E05.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1999</copyrightYear>
+      <keywords locale="en">
+        <keyword>Bicategory</keyword>
+        <keyword>module</keyword>
+        <keyword>Clifford theory</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Renato</givenname>
+          <familyname locale="en">Betti</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">54</id>
+        <name locale="en">PDF</name>
+        <seq>1</seq>
+        <submission_file_ref id="54"/>
+      </article_galley>
+      <issue_identification>
+        <volume>6</volume>
+        <year>1999</year>
+        <title locale="en">Lambek Festschrift</title>
+      </issue_identification>
+      <pages>25-32</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">55</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n3.pdf</name>
+      <file id="55" filesize="291511" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/6/n3/n3.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">55</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">The categorical theory of self-similarity</title>
+      <abstract locale="en"><p>We demonstrate how the identity $N\otimes N \cong N$ in a monoidal category allows us to construct a functor from the full subcategory generated by $N$ and $\otimes$ to the endomorphism monoid of the object $N$. This provides a categorical foundation for one-object analogues of the symmetric monoidal categories used by J.-Y. Girard in his Geometry of Interaction series of papers, and explicitly described in terms of inverse semigroup theory in [6,11]. This functor also allows the construction of one-object analogues of other categorical structures. We give the example of one-object analogues of the categorical trace, and compact closedness. Finally, we demonstrate how the categorical theory of self-similarity can be related to the algebraic theory (as presented in [11]), and Girard's dynamical algebra, by considering one-object analogues of projections and inclusions.</p><p>1991 MSC: 18D10, 20M18.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1999</copyrightYear>
+      <keywords locale="en">
+        <keyword>Monoidal Categories</keyword>
+        <keyword>Categorical Trace</keyword>
+        <keyword>Compact Closure</keyword>
+        <keyword>Linear Logic</keyword>
+        <keyword>Inverse Semigroups</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Peter</givenname>
+          <familyname locale="en">Hines</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">55</id>
+        <name locale="en">PDF</name>
+        <seq>2</seq>
+        <submission_file_ref id="55"/>
+      </article_galley>
+      <issue_identification>
+        <volume>6</volume>
+        <year>1999</year>
+        <title locale="en">Lambek Festschrift</title>
+      </issue_identification>
+      <pages>33-46</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">56</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n4.pdf</name>
+      <file id="56" filesize="335275" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/6/n4/n4.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">56</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">A Note on Rewriting Theory for Uniqueness of Iteration</title>
+      <abstract locale="en"><p>Uniqueness for higher type term constructors in lambda calculi (e.g. surjective pairing for product types, or uniqueness of iterators on the natural numbers) is easily expressed using universally quantified conditional equations. We use a technique of Lambek [18] involving Mal'cev operators to equationally express uniqueness of iteration (more generally, higher-order primitive recursion) in a simply typed lambda calculus, essentially Godel's T [29,13]. We prove the following facts about typed lambda calculus with uniqueness for primitive recursors: (i) It is undecidable, (ii) Church-Rosser fails, although ground Church-Rosser holds, (iii) strong normalization (termination) is still valid. This entails the undecidability of the coherence problem for cartesian closed categories with strong natural numbers objects, as well as providing a natural example of the following computational paradigm: a non-CR, ground CR, undecidable, terminating rewriting system.</p><p>1991 MSC:.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1999</copyrightYear>
+      <keywords locale="en">
+        <keyword>typed lambda calculus</keyword>
+        <keyword>rewriting theory</keyword>
+        <keyword>strong normalization</keyword>
+        <keyword>Mal'cev operations</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">M.</givenname>
+          <familyname locale="en">Okada</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">P. J.</givenname>
+          <familyname locale="en">Scott</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">56</id>
+        <name locale="en">PDF</name>
+        <seq>3</seq>
+        <submission_file_ref id="56"/>
+      </article_galley>
+      <issue_identification>
+        <volume>6</volume>
+        <year>1999</year>
+        <title locale="en">Lambek Festschrift</title>
+      </issue_identification>
+      <pages>47-64</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">57</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n5.pdf</name>
+      <file id="57" filesize="265638" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/6/n5/n5.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">57</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Contravariant Functors on Finite Sets and Stirling Numbers</title>
+      <abstract locale="en"><p>We characterize the numerical functions which arise as the cardinalities of contravariant functors on finite sets, as those which have a series expansion in terms of Stirling functions. We give a procedure for calculating the coefficients in such series and a concrete test for determining whether a function is of this type. A number of examples are considered.</p><p>1991 MSC: 18A22, 05A10.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1999</copyrightYear>
+      <keywords locale="en">
+        <keyword>Functor</keyword>
+        <keyword>cardinality</keyword>
+        <keyword>Stirling numbers</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Robert</givenname>
+          <familyname locale="en">Par&eacute;</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">57</id>
+        <name locale="en">PDF</name>
+        <seq>4</seq>
+        <submission_file_ref id="57"/>
+      </article_galley>
+      <issue_identification>
+        <volume>6</volume>
+        <year>1999</year>
+        <title locale="en">Lambek Festschrift</title>
+      </issue_identification>
+      <pages>65-76</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">58</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n6.pdf</name>
+      <file id="58" filesize="231863" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/6/n6/n6.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">58</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Comparing coequalizer and exact completions</title>
+      <abstract locale="en"><p>We characterize when the coequalizer and the exact completion of a category $\cal C$ with finite sums and weak finite limits coincide.</p><p>1991 MSC: 18A99.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1999</copyrightYear>
+      <keywords locale="en">
+        <keyword>exact completion</keyword>
+        <keyword>coequalizer completion</keyword>
+        <keyword>variety</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">M. C.</givenname>
+          <familyname locale="en">Pedicchio</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">J.</givenname>
+          <familyname locale="en">Rosicky</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">58</id>
+        <name locale="en">PDF</name>
+        <seq>5</seq>
+        <submission_file_ref id="58"/>
+      </article_galley>
+      <issue_identification>
+        <volume>6</volume>
+        <year>1999</year>
+        <title locale="en">Lambek Festschrift</title>
+      </issue_identification>
+      <pages>77-82</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">59</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n7.pdf</name>
+      <file id="59" filesize="237923" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/6/n7/n7.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">59</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Enriched Lawvere theories</title>
+      <abstract locale="en"><p>We define the notion of enriched Lawvere theory, for enrichment over a monoidal biclosed category $V$ that is locally finitely presentable as a closed category. We prove that the category of enriched Lawvere theories is equivalent to the category of finitary monads on $V$. Moreover, the $V$-category of models of a Lawvere $V$-theory is equivalent to the $V$-category of algebras for the corresponding $V$-monad. This all extends routinely to local presentability with respect to any regular cardinal. We finally consider the special case where $V$ is $Cat$, and explain how the correspondence extends to pseudo maps of algebras.</p><p>1991 MSC: 18C10, 18C15, 18D05.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1999</copyrightYear>
+      <keywords locale="en">
+        <keyword>Lawvere theory</keyword>
+        <keyword>monad</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">John</givenname>
+          <familyname locale="en">Power</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">59</id>
+        <name locale="en">PDF</name>
+        <seq>6</seq>
+        <submission_file_ref id="59"/>
+      </article_galley>
+      <issue_identification>
+        <volume>6</volume>
+        <year>1999</year>
+        <title locale="en">Lambek Festschrift</title>
+      </issue_identification>
+      <pages>83-93</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">60</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n8.pdf</name>
+      <file id="60" filesize="252629" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/6/n8/n8.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">60</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Epimorphic regular contexts</title>
+      <abstract locale="en"><p>A von Neumann regular extension of a semiprime ring naturally defines a epimorphic extension in the category of rings. These are studied, and four natural examples are considered, two in commutative ring theory, and two in rings of continuous functions.</p><p>1991 MSC: 13A99, 18A20, 16B50.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1999</copyrightYear>
+      <keywords locale="en">
+        <keyword>epimorphism</keyword>
+        <keyword>von Neumann regular</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Robert</givenname>
+          <familyname locale="en">Raphael</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">60</id>
+        <name locale="en">PDF</name>
+        <seq>7</seq>
+        <submission_file_ref id="60"/>
+      </article_galley>
+      <issue_identification>
+        <volume>6</volume>
+        <year>1999</year>
+        <title locale="en">Lambek Festschrift</title>
+      </issue_identification>
+      <pages>94-104</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">61</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n9.pdf</name>
+      <file id="61" filesize="692596" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/6/n9/n9.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">61</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Natural deduction and coherence for non-symmetric linearly distributive categories</title>
+      <abstract locale="en"><p>In this paper certain proof-theoretic techniques of [BCST] are applied to <i>non-symmetric</i> linearly distributive categories, corresponding to <i>non-commutative</i> negation-free multiplicative linear logic (mLL). First, the correctness criterion for the two-sided proof nets developed in [BCST] is adjusted to work in the non-commutative setting. Second, these proof nets are used to represent morphisms in a (non-symmetric) linearly distributive category; a notion of proof-net equivalence is developed which permits a considerable sharpening of the previous coherence results concerning these categories, including a decision procedure for the equality of maps when there is a certain restriction on the units. In particular a decision procedure is obtained for the equivalence of proofs in non-commutative negation-free mLL without non-logical axioms.</p><p>1991 MSC: 03B60, 03F05, 03F07, 03G30, 18D10, 18D15.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1999</copyrightYear>
+      <keywords locale="en">
+        <keyword>categorical proof theory</keyword>
+        <keyword>linear logic</keyword>
+        <keyword>monoidal categories</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Robert R.</givenname>
+          <familyname locale="en">Schneck</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">61</id>
+        <name locale="en">PDF</name>
+        <seq>8</seq>
+        <submission_file_ref id="61"/>
+      </article_galley>
+      <issue_identification>
+        <volume>6</volume>
+        <year>1999</year>
+        <title locale="en">Lambek Festschrift</title>
+      </issue_identification>
+      <pages>105-146</pages>
+    </publication>
+  </article>
+</articles>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<articles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">10</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n1.pdf</name>
+      <file id="10" filesize="136932" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/1996/n1/n1.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">10</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Computing crossed modules induced by an inclusion of a normal subgroup, with applications to homotopy 2-types</title>
+      <abstract locale="en"><p>We obtain some explicit calculations of crossed Q-modules induced from a crossed module over a normal subgroup P of Q. By virtue of theorems of Brown and Higgins, this enables the computation of the homotopy 2-types and second homotopy modules of certain homotopy pushouts of maps of classifying spaces of discrete groups.</p><p>AMS Classification (1991): 18G10, 20F38, 55P15, 55Q20.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1996</copyrightYear>
+      <keywords locale="en">
+        <keyword>crossed modules</keyword>
+        <keyword>homotopy 2�types</keyword>
+        <keyword>generalized Van Kampen theorem</keyword>
+        <keyword>crossed resolution</keyword>
+        <keyword>Postnikov invariant</keyword>
+        <keyword>classifying spaces of discrete groups</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Ronald</givenname>
+          <familyname locale="en">Brown</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Christopher D.</givenname>
+          <familyname locale="en">Wensley</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">10</id>
+        <name locale="en">PDF</name>
+        <seq>0</seq>
+        <submission_file_ref id="10"/>
+      </article_galley>
+      <issue_identification>
+        <volume>2</volume>
+        <year>1996</year>
+      </issue_identification>
+      <pages>3-16</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">11</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n2.pdf</name>
+      <file id="11" filesize="166052" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/1996/n2/n2.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">11</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">The Chu construction</title>
+      <abstract locale="en"><p>We take another look at the Chu construction and show how to simplify it by looking at it as a module category in a trivial Chu category. This simplifies the construction substantially, especially in the case of a non-symmetric biclosed monoidal category. We also show that if the original category is accessible, then for any of a large class of ``polynomial-like'' functors, the category of coalgebras has cofree objects.</p><p>AMS Classification (1991): 18D15.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1996</copyrightYear>
+      <keywords locale="en">
+        <keyword>Chu category</keyword>
+        <keyword>bimodules</keyword>
+        <keyword>cofree coalgebras</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Michael</givenname>
+          <familyname locale="en">Barr</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">11</id>
+        <name locale="en">PDF</name>
+        <seq>1</seq>
+        <submission_file_ref id="11"/>
+      </article_galley>
+      <issue_identification>
+        <volume>2</volume>
+        <year>1996</year>
+      </issue_identification>
+      <pages>17-35</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">12</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n3.pdf</name>
+      <file id="12" filesize="77332" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/1996/n3/n3.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">12</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">A Counterexample to a Conjecture of Barr</title>
+      <abstract locale="en"><p>We discuss two versions of a conjecture attributed to M. Barr. The Harrison cohomology of a commutative algebra is known to coincide with the Andre/Quillen cohomology over a field of characteristic zero but not in prime characteristics. The conjecture is that a modified version of Harrison cohomology, taking into account torsion, always agrees with Andre/Quillen cohomology. We give a counterexample.</p><p>AMS Classification (1991): 13D03, 18C15.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1996</copyrightYear>
+      <keywords locale="en">
+        <keyword>Hochschild homology</keyword>
+        <keyword>Harrison homology</keyword>
+        <keyword>Andr'e/Quillen homology</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Sarah</givenname>
+          <familyname locale="en">Whitehouse</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">12</id>
+        <name locale="en">PDF</name>
+        <seq>2</seq>
+        <submission_file_ref id="12"/>
+      </article_galley>
+      <issue_identification>
+        <volume>2</volume>
+        <year>1996</year>
+      </issue_identification>
+      <pages>36-39</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">13</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n4.pdf</name>
+      <file id="13" filesize="141813" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/1996/n4/n4.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">13</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">An algebraic description of locally multipresentable categories</title>
+      <abstract locale="en"><p>Locally finitely presentable categories are known to be precisely the categories of models of essentially algebraic theories, i.e., categories of partial algebras whose domains of definition are determined by equations in total operations. Here we show an analogous description of locally finitely multipresentable categories. We also prove that locally finitely multipresentable categories are precisely categories of models of sketches with finite limit and countable coproduct specifications, and we present an example of a locally finitely multipresentable category not sketchable by a sketch with finite limit and finite colimit specifications.</p><p>AMS Classification (1991): 18C99.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1996</copyrightYear>
+      <keywords locale="en">
+        <keyword>locally multipresentable category</keyword>
+        <keyword>sketch</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Jiri</givenname>
+          <familyname locale="en">Adamek</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Jiri</givenname>
+          <familyname locale="en">Rosicky</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">13</id>
+        <name locale="en">PDF</name>
+        <seq>3</seq>
+        <submission_file_ref id="13"/>
+      </article_galley>
+      <issue_identification>
+        <volume>2</volume>
+        <year>1996</year>
+      </issue_identification>
+      <pages>40-53</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">14</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n5.pdf</name>
+      <file id="14" filesize="90170" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/1996/n5/n5.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">14</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Finiteness of a Non-abelian Tensor Product of Groups</title>
+      <abstract locale="en"><p>Some sufficient conditions for finiteness of a generalized non-abelian tensor product of groups are established extending Ellis' result for compatible actions.</p><p>AMS Classification (1991): 18G50.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1996</copyrightYear>
+      <keywords locale="en">
+        <keyword>Non�abelian tensor product of groups</keyword>
+        <keyword>Comp�subgroup</keyword>
+        <keyword>Comp�pairs</keyword>
+        <keyword>compatibility resolution</keyword>
+        <keyword>half compatible actions</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Nick</givenname>
+          <familyname locale="en">Inassaridze</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">14</id>
+        <name locale="en">PDF</name>
+        <seq>4</seq>
+        <submission_file_ref id="14"/>
+      </article_galley>
+      <issue_identification>
+        <volume>2</volume>
+        <year>1996</year>
+      </issue_identification>
+      <pages>54-61</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">15</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n6.pdf</name>
+      <file id="15" filesize="81214" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/1996/n6/n6.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">15</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">On quantic conuclei on orthomodular lattices</title>
+      <abstract locale="en"><p>In this paper we study the lattice of quantic conuclei for orthomudular lattices. We show that under certain condition we can get a complete characterization of all quantic conuclei. The thing to note is we use a non commutative, non associative disjunction operation which can be thought of as non commutative, non associative linear logic.</p><p>1991 MSC: 06A15, 06C99, 03G12, 03G30, 81P10.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1996</copyrightYear>
+      <keywords locale="en">
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Leopoldo</givenname>
+          <familyname locale="en">Roman</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Rita E.</givenname>
+          <familyname locale="en">Zuazua</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">15</id>
+        <name locale="en">PDF</name>
+        <seq>5</seq>
+        <submission_file_ref id="15"/>
+      </article_galley>
+      <issue_identification>
+        <volume>2</volume>
+        <year>1996</year>
+      </issue_identification>
+      <pages>62-68</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">16</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n7.pdf</name>
+      <file id="16" filesize="154113" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/1996/n7/n7.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">16</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Combinatorics of curvature, and the Bianchi identity</title>
+      <abstract locale="en"><p>We analyze the Bianchi Identity as an instance of a basic fact of combinatorial groupoid theory, related to the Homotopy Addition Lemma. Here it becomes formulated in terms of 2-forms with values in the gauge group bundle of a groupoid, and leads in particular to the (Chern-Weil) construction of characteristic classes. The method is that of synthetic differential geometry, using "the first neighbourhood of the diagonal" of a manifold as its basic combinatorial structure. We introduce as a tool a new and simple description of wedge (= exterior) products of differential forms in this context.</p><p>1991 MSC: 58A03, 53C05, 18F15 .</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1996</copyrightYear>
+      <keywords locale="en">
+        <keyword>Connection</keyword>
+        <keyword>curvature</keyword>
+        <keyword>groupoid</keyword>
+        <keyword>first neighbourhood of the diagonal</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Anders</givenname>
+          <familyname locale="en">Kock</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">16</id>
+        <name locale="en">PDF</name>
+        <seq>6</seq>
+        <submission_file_ref id="16"/>
+      </article_galley>
+      <issue_identification>
+        <volume>2</volume>
+        <year>1996</year>
+      </issue_identification>
+      <pages>69-89</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">17</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n8.pdf</name>
+      <file id="17" filesize="107204" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">17</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Remarks on Quintessential and Persistent Localizations</title>
+      <abstract locale="en"><p>We define a localization L of a category E to be quintessential if the left adjoint to the inclusion functor is also right adjoint to it, and persistent if L is closed under subobjects in E. We show that quintessential localizations of an arbitrary Cauchy-complete category correspond to idempotent natural endomorphisms of its identity functor, and that they are necessarily persistent. Our investigation of persistent localizations is largely restricted to the case when E is a topos: we show that persistence is equivalence to the closure of L under finite coproducts and quotients, and that it implies that L is coreflective as well as reflective, at least provided E admits a geometric morphism to a Boolean topos. However, we provide examples to show that the reflector and coreflector need not coincide.</p><p>1991 MSC: 18A40, 18B25.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1996</copyrightYear>
+      <keywords locale="en">
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">P.T.</givenname>
+          <familyname locale="en">Johnstone</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">17</id>
+        <name locale="en">PDF</name>
+        <seq>7</seq>
+        <submission_file_ref id="17"/>
+      </article_galley>
+      <issue_identification>
+        <volume>2</volume>
+        <year>1996</year>
+      </issue_identification>
+      <pages>90-99</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">18</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n9.pdf</name>
+      <file id="18" filesize="126730" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/1996/n9/n9.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">18</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">Glueing Analysis for Complemented Subtoposes</title>
+      <abstract locale="en"><p>We prove how any (elementary) topos may be reconstructed from the data of two complemented subtoposes together with a pair of left exact ``glueing functors''. This generalizes the classical glueing theorem for toposes, which deals with the special case of an open subtopos and its closed complement. Our glueing analysis applies in a particularly simple form to a locally closed subtopos and its complement, and one of the important properties (prolongation by zero for abelian groups) can be succinctly described in terms of it.</p><p>1991 MSC: 18B25.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1996</copyrightYear>
+      <keywords locale="en">
+        <keyword>Artin glueing</keyword>
+        <keyword>complemented subtoposes</keyword>
+        <keyword>complemented sublocale</keyword>
+        <keyword>locally closed subtoposes</keyword>
+        <keyword>locally closed sublocale</keyword>
+        <keyword>prolongation by 0</keyword>
+        <keyword>extension by 0</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Anders</givenname>
+          <familyname locale="en">Kock</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Till</givenname>
+          <familyname locale="en">Plewe</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">18</id>
+        <name locale="en">PDF</name>
+        <seq>8</seq>
+        <submission_file_ref id="18"/>
+      </article_galley>
+      <issue_identification>
+        <volume>2</volume>
+        <year>1996</year>
+      </issue_identification>
+      <pages>100-112</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">19</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">n10.pdf</name>
+      <file id="19" filesize="146472" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/1996/n10/n10.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">19</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">A note on free regular and exact completions and their infinitary generalizations</title>
+      <abstract locale="en"><p>Free regular and exact completions of categories with various ranks of weak limits are presented as subcategories of presheaf categories. Their universal properties can then be derived with standard techniques as used in duality theory.</p><p>AMS Classification (1991): 18A35, 18E10, 18G05.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>1996</copyrightYear>
+      <keywords locale="en">
+        <keyword>regular category</keyword>
+        <keyword>exact category</keyword>
+        <keyword>regular completion</keyword>
+        <keyword>exact completion</keyword>
+        <keyword>flat functor</keyword>
+        <keyword>accessible category</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Hongde</givenname>
+          <familyname locale="en">Hu</familyname>
+          <email>madeup@email.org</email>
+        </author>
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Walter</givenname>
+          <familyname locale="en">Tholen</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">19</id>
+        <name locale="en">PDF</name>
+        <seq>9</seq>
+        <submission_file_ref id="19"/>
+      </article_galley>
+      <issue_identification>
+        <volume>2</volume>
+        <year>1996</year>
+      </issue_identification>
+      <pages>113-132</pages>
+    </publication>
+  </article>
+</articles>
