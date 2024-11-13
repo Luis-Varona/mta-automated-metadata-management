@@ -610,7 +610,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="1" url_path="" seq="13" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">352</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">On $*$-autonomous categories of topological modules</title>
+      <title locale="en">On *-autonomous categories of topological modules</title>
       <abstract locale="en"><p>Let R be a commutative ring whose complete ring of quotients is R-injective. We show that the category of topological R-modules contains a full subcategory that is *-autonomous using R itself as dualizing object. In order to do this, we develop a new variation on the category chu(D,R), where D is the category of discrete R-modules: the high wide subcategory, which we show equivalent to the category of reflexive topological modules.</p><p>2000 MSC: 16D90, 18D10.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -753,7 +753,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="84" url_path="" seq="16" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">355</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Internal profunctors and commutator theory; applications to extensions classification and categorical Galois Theory</title>
+      <title locale="en">Internal profunctors and commutator theory; <br /> applications to extensions classification and categorical Galois Theory</title>
       <abstract locale="en"><p>We clarify the relationship between internal profunctors and connectors on pairs (R,S) of equivalence relations which originally appeared in our new profunctorial approach of the Schreier-Mac Lane extension theorem. This clarification allows us to extend this Schreier-Mac Lane theorem to any exact Mal'cev category with centralizers. On the other hand, still in the Mal'cev context and in respect to the categorical Galois theory associated with a reflection I, it allows us to produce the faithful action of a certain abelian group on the set of classes (up to isomorphism) of I-normal extensions having a given Galois groupoid.</p><p>2000 MSC: 18G50, 18D35, 18B40, 20J15, 08C05.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

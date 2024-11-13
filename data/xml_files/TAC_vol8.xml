@@ -473,7 +473,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="104" url_path="" seq="10" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">87</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Limites inductives point par point dans les categories accessibles</title>
+      <title locale="en">Limites inductives point par point dans les cat&eacute;gories accessibles</title>
       <abstract locale="en"><p>We give an abstract characterization of the categories of models of sketches all of whose distinguished cones are based on connected (resp. non empty) categories. Nous donnons une caract&eacute;risation abstraite des cat&eacute;gories de mod&egrave;les des esquisses dont tous les c&ocirc;nes projectifs distingu&eacute;s sont d'indexation connexe (resp. non vide).</p><p>2000 MSC: 18C30, 18C35.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -656,7 +656,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="108" url_path="" seq="14" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">91</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Pseudogroupoids and Commutators</title>
+      <title locale="en">Pseudogroupoids and commutators</title>
       <abstract locale="en"><p>We develop a new approach to Commutator theory based on the theory of internal categorical structures, especially of so called pseudogroupoids. It is motivated by our previous work on internal categories and groupoids in congruence modular varieties.</p><p>2000 MSC: 18D99, 08B05.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -1031,7 +1031,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="32" url_path="" seq="22" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">99</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">V-Cat is locally presentable or locally bounded if V is so</title>
+      <title locale="en">$V$-Cat is locally presentable or locally bounded if $V$ is so</title>
       <abstract locale="en"><p>We show, for a monoidal closed category $V = (V_0,\otimes,I)$, that the category $V$-Cat of small $V$-categories is locally $\lambda$-presentable if $V_0$ is so, and that it is locally $\lambda$-bounded if the closed category $V$ is so, meaning that $V_0$ is locally $\lambda$-bounded and that a side condition involving the monoidal structure is satisfied.</p><p>2000 MSC: 18C35, 18D20, 18A32.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

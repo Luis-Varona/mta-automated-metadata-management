@@ -11,7 +11,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="53" url_path="" seq="0" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">41</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">A note on discrete Conduche fibrations</title>
+      <title locale="en">A note on discrete Conduch&eacute; fibrations</title>
       <abstract locale="en"><p>The class of functors known as discrete Conduch&eacute; fibrations forms a common generalization of discrete fibrations and discrete opfibrations, and shares many of the formal properties of these two classes. F. Lamarche conjectured that, for any small category $\cal B$, the category ${\bf DCF}/{\cal B}$ of discrete Conduch&eacute; fibrations over $\cal B$ should be a topos. In this note we show that, although for suitable categories $\cal B$ the discrete Conduch&eacute fibrations over $\cal B$ may be presented as the `sheaves' for a family of coverings on a category ${\cal B}_{tw}$ constructed from $\cal B$, they are in general very far from forming a topos.</p><p>1991 MSC: Primary 18A22, Secondary 18B25.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

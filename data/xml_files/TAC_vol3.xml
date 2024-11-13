@@ -143,7 +143,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="28" url_path="" seq="3" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">23</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Lax Operad Actions and Coherence for Monoidal n-Categories, A_{\infty}, Rings and Modules</title>
+      <title locale="en">Lax Operad Actions and Coherence for Monoidal n-Categories, A_{\infty} Rings and Modules</title>
       <abstract locale="en"><p>We establish a general coherence theorem for lax operad actions on an n-category which implies that an n-category with such an action is lax equivalent to one with a strict action. This includes familiar coherence results (e.g. for symmetric monoidal categories) and many new ones. In particular, any braided monoidal n-category is lax equivalent to a strict braided monoidal n-category. We also obtain coherence theorems for A_{\infty} and E_{\infty} rings and for lax modules over such rings. Using these results we give an extension of Morita equivalence to A_{\infty} rings and some applications to infinite loop spaces and algebraic K-theory.</p><p>1991 MSC: 18C15, 18D05, 18D10, 19D23, 55P47, 55U40.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

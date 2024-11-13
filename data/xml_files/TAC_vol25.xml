@@ -94,7 +94,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="53" url_path="" seq="2" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">362</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Remarks on Punctual Local Connectedness</title>
+      <title locale="en">Remarks on punctual local connectedness</title>
       <abstract locale="en"><p>We study the condition, on a connected and locally connected geometric morphism $p : \cal E \to \cal S$, that the canonical natural transformation $p_*\to p_!$ should be (pointwise) epimorphic - a condition which F.W. Lawvere called the `Nullstellensatz', but which we prefer to call `punctual local connectedness'. We show that this condition implies that $p_!$ preserves finite products, and that, for bounded morphisms between toposes with natural number objects, it is equivalent to being both local and hyperconnected.</p><p>2000 MSC: Primary 18B25, secondary 18A40.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -636,7 +636,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="29" url_path="" seq="14" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">374</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">The Faa di Bruno construction</title>
+      <title locale="en">The Fa&agrave; di Bruno construction</title>
       <abstract locale="en"><p>In the context of Cartesian differential categories, the structure of the first-order chain rule gives rise to a fibration, the ``bundle category''. In the present paper we generalise this to the higher-order chain rule (originally developed in the traditional setting by Fa&agrave; di Bruno in the nineteenth century); given any Cartesian differential category X, there is a ``higher-order chain rule fibration'' Faa(X) --> X over it. In fact, Faa is a comonad (over the category of Cartesian left (semi-)additive categories). Our main theorem is that the coalgebras for this comonad are precisely the Cartesian differential categories. In a sense, this result affirms the ``correctness'' of the notion of Cartesian differential categories.</p><p>2000 MSC: 18D10, 18C20, 12H05, 32W99.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

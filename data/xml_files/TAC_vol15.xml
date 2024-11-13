@@ -215,7 +215,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="201" url_path="" seq="4" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">203</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Algebraic Models of Intuitionistic Theories of Sets and Classes</title>
+      <title locale="en">Algebraic models of intuitionistic theories of sets and classes</title>
       <abstract locale="en"><p>This paper constructs models of intuitionistic set theory in suitable categories. First, a Basic Intuitionistic Set Theory (BIST) is stated, and the categorical semantics are given. Second, we give a notion of an <i>ideal</i> over a category, using which one can build a model of BIST in which a given topos occurs as the sets. And third, a sheaf model is given of a Basic Intuitionistic Class Theory conservatively extending BIST. The paper extends the results in Awodey, Butz, Simpson and Streicher (2003) by introducing a new and perhaps more natural notion of ideal, and in the class theory of part three.</p><p>2000 MSC: 18B05, 18B25, 18C10, 03G30, 03E70, 03F60.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

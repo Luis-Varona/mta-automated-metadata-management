@@ -476,7 +476,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="407" url_path="" seq="10" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">560</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Stacks and sheaves of categories, II</title>
+      <title locale="en">Stacks and sheaves of categories as fibrant objects, II</title>
       <abstract locale="en"><p>We revisit what we call the fibred topology on a fibred category over a site and we prove a few basic results concerning this topology. We give a general result concerning the invariance of a 2-category of stacks under change of base.</p><p>2010 MSC: 18F10, 18D30, 18G55.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -576,7 +576,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="486" url_path="" seq="12" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">562</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">A Cotriple Construction of a Simplicial Algebra used in the Definition of Higher Chow Groups</title>
+      <title locale="en">A cotriple construction of a simplicial algebra used in the definition of higher Chow groups</title>
       <abstract locale="en"><p>We present a brief and simple cotriple description of the simplicial algebra used in Bloch's construction of the higher Chow groups.</p><p>2010 MSC: 18C15.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -1684,7 +1684,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="466" url_path="" seq="36" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">586</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">A functorial approach to Dedekind completions and the representation of vector lattices and l-algebras by normal functions</title>
+      <title locale="en">A functorial approach to Dedekind completions and the representation of vector lattices and <i>l</i>-algebras by normal functions</title>
       <abstract locale="en"><p>Unlike the uniform completion, the Dedekind completion of a vector lattice is not functorial. In order to repair the lack of functoriality of Dedekind completions, we enrich the signature of vector lattices with a proximity relation, thus arriving at the category <b>pdv</b> of proximity Dedekind vector lattices. We prove that the Dedekind completion induces a functor from the category <b>bav</b> of bounded archimedean vector lattices to <b>pdv</b>, which in fact is an equivalence. We utilize the results of Dilworth to show that every proximity Dedekind vector lattice D is represented as the normal real-valued functions on the compact Hausdorff space associated with D. This yields a contravariant adjunction between <b>pdv</b> and the category <b>KHaus</b> of compact Hausdorff spaces, which restricts to a dual equivalence between <b>KHaus</b> and the proper subcategory of <b>pdv</b> consisting of those proximity Dedekind vector lattices in which the proximity is uniformly closed. We show how to derive the classic Yosida Representation, Kakutani-Krein Duality, Stone-Gelfand-Naimark Duality, and Stone-Nakano Theorem from our approach.</p><p>2010 MSC: 06F20; 46A40; 54E05; 54D30; 54G05.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

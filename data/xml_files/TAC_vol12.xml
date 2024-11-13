@@ -282,7 +282,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="93" url_path="" seq="6" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">156</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Change of Base for Relational Variable Sets</title>
+      <title locale="en">Change of base for relational variable sets</title>
       <abstract locale="en"><p>Following Ghilardi and Meloni, a relational variable set on a category B is a lax functor B to Rel, where Rel is the category of sets and relations. Change-of-base functors and their adjoints are considered for certain categories of relational variable sets and applied to construct the simplification of a dynamic set (in the sense of Stell).</p><p>2000 MSC: 18A40, 08A02, 18F20, 18A22.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -495,7 +495,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="164" url_path="" seq="11" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">161</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">$\K$-purity and orthogonality</title>
+      <title locale="en">K-purity and orthogonality</title>
       <abstract locale="en"><p>Adamek and Sousa recently solved the problem of characterizing the subcategories <i>K</i> of a locally $\lambda$-presentable category <i>C</i> which are $\lambda$-orthogonal in <i>C</i>, using their concept of <i>K</i>$\lambda$-pure morphism. We strengthen the latter definition, in order to obtain a characterization of the classes defined by orthogonality with respect to $\lambda$-presentable morphisms (where $f : A \rightarrow B is called $\lambda$-presentable if it is a $\lambda$-presentable object of the comma category A/<i>C</i>). Those classes are natural examples of reflective subcategories defined by proper classes of morphisms. Adamek and Sousa's result follows from ours. We also prove that $\lambda$-presentable morphisms are precisely the pushouts of morphisms between $\lambda$-presentable objects of <i>C</i>.</p><p>2000 MSC: 18A20, 18C35, 03C60, 18G05.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

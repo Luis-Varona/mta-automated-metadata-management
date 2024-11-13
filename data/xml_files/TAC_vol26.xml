@@ -358,7 +358,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="343" url_path="" seq="8" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">390</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Graphical Methods for Tannaka duality]{Graphical Methods for Tannaka duality of weak bialgebras and weak Hopf algebras</title>
+      <title locale="en">Graphical Methods for Tannaka duality of weak bialgebras and weak Hopf algebras</title>
       <abstract locale="en"><p>Tannaka duality describes the relationship between algebraic objects in a given category and functors into that category; an important case is that of Hopf algebras and their categories of representations; these have strong monoidal forgetful ``fibre functors'' to the category of vector spaces. We simultaneously generalize the theory of Tannaka duality in two ways: first, we replace Hopf algebras with <i>weak Hopf algebras</i> and strong monoidal functors with <i>separable Frobenius monoidal functors</i>; second, we replace the category of vector spaces with an arbitrary braided monoidal category. To accomplish this goal, we make use of a graphical notation for functors between monoidal categories, using string diagrams with <i>coloured regions</i>. Not only does this notation extend our capacity to give simple proofs of complicated calculations, it makes plain some of the connections between Frobenius monoidal or separable Frobenius monoidal functors and the topology of the axioms defining certain algebraic structures. Finally, having generalized Tannaka duality to an arbitrary base category, we briefly discuss the functoriality of the construction as this base is varied.</p><p>2000 MSC: 18D10.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -735,7 +735,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="29" url_path="" seq="16" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">398</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Range Categories I: General Theory</title>
+      <title locale="en">Range categories I: General theory</title>
       <abstract locale="en"><p>In this two-part paper, we undertake a systematic study of abstract partial map categories in which every map has both a restriction (domain of definition) and a range (image). In this first part, we explore connections with related structures such as inverse categories and allegories, and establish two representational results. The first of these explains how every range category can be fully and faithfully embedded into a category of partial maps equipped with a suitable factorization system. The second is a generalization of a result from semigroup theory by Boris Schein, and says that every small range category satisfying the additional condition that every map is an epimorphism onto its range can be faithfully embedded into the category of sets and partial functions with the usual notion of range. Finally, we give an explicit construction of the free range category on a partial map category in terms of certain types of labeled trees.</p><p>2010 MSC: 18A15, 18A32, 18D20.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -880,7 +880,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="350" url_path="" seq="19" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">401</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Modeling Stable One-Types</title>
+      <title locale="en">Modeling stable one-types</title>
       <abstract locale="en"><p>Classification of homotopy $n$-types has focused on developing algebraic categories which are equivalent to categories of $n$-types. We expand this theory by providing algebraic models of homotopy-theoretic constructions for stable one-types. These include a model for the Postnikov one-truncation of the sphere spectrum, and for its action on the model of a stable one-type. We show that a bicategorical cokernel introduced by Vitale models the cofiber of a map between stable one-types, and apply this to develop an algebraic model for the Postnikov data of a stable one-type.</p><p>2010 MSC: 18B40, 18D10, 55P42, 55S45.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -1062,7 +1062,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="76" url_path="" seq="23" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">405</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Isotropy and Crossed Toposes</title>
+      <title locale="en">Isotropy and crossed toposes</title>
       <abstract locale="en"><p>Motivated by constructions in the theory of inverse semigroups and etale groupoids, we define and investigate the concept of isotropy from a topos-theoretic perspective. Our main conceptual tool is a monad on the category of grouped toposes. Its algebras correspond to a generalized notion of crossed module, which we call a crossed topos. As an application, we present a topos-theoretic characterization and generalization of the `Clifford, fundamental' sequence associated with an inverse semigroup.</p><p>2010 MSC: 18B25, 18B40, 18D05, 20L05, 20M18, 20M35, 22A22.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

@@ -11,7 +11,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="124" url_path="" seq="0" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">110</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">A Survey of Definitions of n-Category</title>
+      <title locale="en">A survey of definitions of n-category</title>
       <abstract locale="en"><p>Many people have proposed definitions of `weak n-category'. Ten of them are presented here. Each definition is given in two pages, with a further two pages on what happens when $n\leq 2$. The definitions can be read independently. Chatty bibliography follows.</p><p>2000 MSC: 18D05, 18D50, 18F99, 18A99.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

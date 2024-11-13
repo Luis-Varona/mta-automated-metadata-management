@@ -451,7 +451,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="93" url_path="" seq="10" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">216</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Exponentiability in Lax Slices of <b>Top</b></title>
+      <title locale="en">Exponentiability in lax slices of <b>Top</b></title>
       <abstract locale="en"><p>We consider exponentiable objects in lax slices of <b>Top</b> with respect to the specialization order (and its opposite) on a base space <i>B</i>. We begin by showing that the lax slice over <i>B</i> has binary products which are preserved by the forgetful functor to <b>Top</b> if and only if <i>B</i> is a meet (respective, join) semilattice in <b>Top</b>, and go on to characterize exponentiability over a complete Alexandrov space <i>B</i>.</p><p>2000 MSC: 18B30, 18A40, 18A25, 54C35, 54F05, 06F30.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -671,7 +671,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="212" url_path="" seq="15" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">221</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">TFT CONSTRUCTION OF RCFT CORRELATORS V: PROOF OF MODULAR INVARIANCE AND FACTORISATION</title>
+      <title locale="en">TFT Construction of RCFT correlators<br> V: Proof of modular invariance and factorisation</title>
       <abstract locale="en"><p>The correlators of two-dimensional rational conformal field theories that are obtained in the TFT construction of Fuchs, Runkel and Schweigert are shown to be invariant under the action of the relative modular group and to obey bulk and boundary factorisation constraints. We present results both for conformal field theories defined on oriented surfaces and for theories defined on unoriented surfaces. In the latter case, in particular the so-called cross cap constraint is included. <!--</p><p>2000 MSC: 81T40, 18D10, 18D35, 81T45.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -725,7 +725,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="87" url_path="" seq="16" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">222</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Spectra of finitely generated boolean flows</title>
+      <title locale="en">Spectra of finitely generated Boolean flows</title>
       <abstract locale="en"><p>A <b>flow</b> on a compact Hausdorff space <i>X</i> is given by a map <i> t : X --> X</i>. The general goal of this paper is to find the "cyclic parts" of such a flow. To do this, we approximate <i>(X,t)</i> by a flow on a Stone space (that is, a totally disconnected, compact Hausdorff space). Such a flow can be examined by analyzing the resulting flow on the Boolean algebra of clopen subsets, using the spectrum defined in our previous TAC paper, The cyclic spectrum of a Boolean flow. In this paper, we describe the cyclic spectrum in terms that do not rely on topos theory. We then compute the cyclic spectrum of any finitely generated Boolean flow. We define when a sheaf of Boolean flows can be regarded as cyclic and find necessary conditions for representing a Boolean flow using the global sections of such a sheaf. In the final section, we define and explore a related spectrum based on minimal subflows of Stone spaces.</p><p>2000 MSC: 06D22, 18B99, 37B99.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -1284,7 +1284,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="227" url_path="" seq="28" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">234</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Categorified Algebra and Quantum Mechanics</title>
+      <title locale="en">Categorified algebra and quantum mechanics</title>
       <abstract locale="en"><p>The process some call `categorification' consists of interpreting set-theoretic structures in mathematics as derived from category-theoretic structures. Examples include the interpretation of N as the Burnside rig of the category of finite sets with product and coproduct, and of N[x] in terms the category of combinatorial species. This has interesting applications to quantum mechanics, and in particular the quantum harmonic oscillator, via Joyal's `combinatorial species', and a new generalization called `stuff types' described by Baez and Dolan, which are a special case of Kelly's `clubs'. Operators between stuff types be represented as rudimentary Feynman diagrams for the oscillator. In quantum mechanics, we want to represent states in an algebra over the complex numbers, and also want our Feynman diagrams to carry more structure than these `stuff operators' can do, and these turn out to be closely related. We will describe a categorification of the quantum harmonic oscillator in which the group of `phases' - that is, U(1), the circle group - plays a special role. We describe a general notion of `M-stuff types' for any monoid M, and see that the case M = U(1) provides an interpretation of time evolution in the combinatorial setting, as well as recovering the usual Feynman rules for the quantum harmonic oscillator. <!--</p><p>2000 MSC: 81P05, 05A15, 18D10, 18B40.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

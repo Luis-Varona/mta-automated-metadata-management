@@ -96,7 +96,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="259" url_path="" seq="2" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">275</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Frobenius objects in Cartesian bicategories</title>
+      <title locale="en">Frobenius objects in cartesian bicategories</title>
       <abstract locale="en"><p>Maps (left adjoint arrows) between Frobenius objects in a cartesian bicategory <b>B</b> are precisely comonoid homomorphisms and, for A Frobenius and any T in <b>B</b>, map(<b>B</b>)(T,A) is a groupoid.</p><p>2000 MSC: 18A25.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -288,7 +288,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="260" url_path="" seq="6" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">279</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Category-theoretic models of Linear Abadi and Plotkin Logic</title>
+      <title locale="en">Category-theoretic models of linear Abadi and Plotkin logic</title>
       <abstract locale="en"><p>This paper presents a sound and complete category-theoretic notion of models for Linear Abadi and Plotkin Logic, a logic suitable for reasoning about parametricity in combination with recursion. A subclass of these called <i>parametric LAPL structures</i> can be seen as an axiomatization of domain theoretic models of parametric polymorphism, and we show how to solve general (nested) recursive domain equations in these. Parametric LAPL structures constitute a general notion of model of parametricity in a setting with recursion. In future papers we will demonstrate this by showing how many different models of parametricity and recursion give rise to parametric LAPL structures, including Simpson and Rosolini's set theoretic models, a syntactic model based on Lily and a model based on admissible pers over a reflexive domain.</p><p>2000 MSC: 03B70, 18C50, 68Q55.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -342,7 +342,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="101" url_path="" seq="7" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">280</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Kan extensions in double categories</title>
+      <title locale="en">Kan extensions in double categories <br> (On weak double categories, Part III)</title>
       <abstract locale="en"><p>This paper deals with Kan extensions in a weak double category. <i> Absolute</i> Kan extensions are closely related to the orthogonal adjunctions introduced in a previous paper. The <i>pointwise</i> case is treated by introducing internal comma objects, which can be defined in an arbitrary double category.</p><p>2000 MSC: 8D05, 18A40, 18A25.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -776,7 +776,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="266" url_path="" seq="16" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">289</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Proprietes universelles et extensions de Kan derivees</title>
+      <title locale="en">Propri&eacute;t&eacute;s universelles et extensions de Kan d&eacute;riv&eacute;es</title>
       <abstract locale="en"><p>We prove that, given any small category A$=, the derivator <b>HOT</b>_A, corresponding to the homotopy theory of presheaves of homotopy types on A, is characterized by a natural universal property. In particular, the theory of Kan extensions extends to the setting of Grothendieck derivators.</p><p>2000 MSC: 55U40, 18A40, 18G50, 18G55, 55U35.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

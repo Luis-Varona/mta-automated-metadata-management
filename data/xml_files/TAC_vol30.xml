@@ -557,7 +557,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="424" url_path="" seq="12" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">506</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Operadic definitions of weak $n$-category: coherence and comparisons</title>
+      <title locale="en">Operadic definitions of weak n-category: coherence and comparisons</title>
       <abstract locale="en"><p>This paper concerns the relationships between notions of weak n-category defined as algebras for n-globular operads, as well as their coherence properties. We focus primarily on the definitions due to Batanin and Leinster. A correspondence between the contractions and systems of compositions used in Batanin's definition, and the unbiased contractions used in Leinster's definition, has long been suspected, and we prove a conjecture of Leinster that shows that the two notions are in some sense equivalent. We then prove several coherence theorems which apply to algebras for any operad with a contraction and system of compositions or with an unbiased contraction; these coherence theorems thus apply to weak $n$-categories in the senses of Batanin, Leinster, Penon and Trimble. We then take some steps towards a comparison between Batanin weak n-categories and Leinster weak n-categories. We describe a canonical adjunction between the categories of these, giving a construction of the left adjoint, which is applicable in more generality to a class of functors induced by monad morphisms. We conclude with some preliminary statements about a possible weak equivalence of some sort between these categories.</p><p>2010 MSC: 18D05, 18D50, 18C15.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -1842,7 +1842,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="456" url_path="" seq="39" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">533</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en"></title>
+      <title locale="en">Segal group actions</title>
       <abstract locale="en"><p>We define a model category structure on a slice category of simplicial spaces, called the "Segal group action" structure, whose fibrant-cofibrant objects may be viewed as representing spaces $X$ with an action of a fixed Segal group (i.e. a group-like, reduced Segal space). We show that this model structure is Quillen equivalent to the projective model structure on $G$-spaces, $S^BG}$, where $G$ is a simplicial group corresponding to the Segal group. One advantage of this model is that if we start with an ordinary group action $X\in S^BG$ and apply a weakly monoidal functor of spaces $L: S \to S$ (such as localization or completion) on each simplicial degree of its associated Segal group action, we get a new Segal group action of $LG$ on $LX$ which can then be rigidified via the above-mentioned Quillen equivalence.</p><p>2010 MSC: 55U35.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

@@ -547,7 +547,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="1" url_path="" seq="11" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">141</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Ring epimorphisms and C(X)</title>
+      <title locale="en">Ring epimorphisms and <i>C(X)</i></title>
       <abstract locale="en"><p>This paper studies the homomorphism of rings of continuous functions $\rho : C(X)\to C(Y)$, $Y$ a subspace of a Tychonoff space $X$, induced by restriction. We ask when $\rho$ is an epimorphism in the categorical sense. There are several appropriate categories: we look at <b>CR</b>, all commutative rings, and <b>R/N</b>, all reduced commutative rings. When $X$ is first countable and perfectly normal (e.g., a metric space), $\rho$ is a <b>CR</b> -epimorphism if and only if it is a <b>R/N</b>-epimorphism if and only if $Y$ is locally closed in $X$. It is also shown that the restriction of $\rho$ to $C^*(X)\to C^*(Y)$, when $X$ is normal, is a <b>CR</b>-epimorphism if and only if it is a surjection. In general spaces the picture is more complicated, as is shown by various examples. Information about $Spec \rho$ and $Spec \rho$ restricted to the proconstructible set of prime z-ideals is given.</p><p>2000 MSC: 18A20, 54C45, 54B30.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -645,7 +645,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="20" url_path="" seq="13" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">143</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Some calculus with extensive quantities: wave equation</title>
+      <title locale="en">Some calculus with extensive quantities: <br> wave equation</title>
       <abstract locale="en"><p>We take some first steps in providing a synthetic theory of distributions. In particular, we are interested in the use of distribution theory as foundation, not just as tool, in the study of the wave equation.</p><p>2000 MSC: 18F99, 35L05, 46F10.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

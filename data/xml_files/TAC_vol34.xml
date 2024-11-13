@@ -1779,7 +1779,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="648" url_path="" seq="38" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">714</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">A model structure on prederivators for $(\infty,1)$-categories</title>
+      <title locale="en">A model structure on prederivators for (&infin;,1)-categories</title>
       <abstract locale="en"><p>By theorems of Carlson and Renaudin, the theory of (&infin;,1)-categories embeds in that of prederivators. The purpose of this paper is to give a two-fold answer to the inverse problem: understanding which prederivators model (&infin;,1)-categories, either strictly or in a homotopical sense. First, we characterize which prederivators arise on the nose as prederivators associated to quasicategories. Next, we put a model structure on the category of prederivators and strict natural transformations, and prove a Quillen equivalence with the Joyal model structure for quasicategories.</p><p>2010 MSC: 55U35, 18G30, 18A25.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

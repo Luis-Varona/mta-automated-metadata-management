@@ -11,7 +11,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="93" url_path="" seq="0" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">267</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Exponentiability in Homotopy Slices of $\bf Top$ and Pseudo-Slices of $\bf Cat$</title>
+      <title locale="en">Exponentiability in homotopy slices of <b>Top</b> and pseudo-slices of <b>Cat</b></title>
       <abstract locale="en"><p>We prove a general theorem relating pseudo-exponentiable objects of a bicategory K to those of the Kleisli bicategory of a pseudo-monad on K. This theorem is applied to obtain pseudo-exponentiable objects of the homotopy slices <b>Top</b>//B of the category of topological spaces and the pseudo-slices <b>Cat</b>//B of the category of small categories.</p><p>2000 MSC: 18A40, 18C20, 18A25, 18B30, 54C35.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -197,7 +197,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="94" url_path="" seq="4" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">271</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Iterative Algebras: How Iterative are They?</title>
+      <title locale="en">Iterative algebras: How iterative are they?</title>
       <abstract locale="en"><p>Iterative algebras, defined by the property that every guarded system of recursive equations has a unique solution, are proved to have a much stronger property: every system of recursive equations has a unique strict solution. Those systems that have a unique solution in every iterative algebra are characterized.</p><p>2000 MSC: 68Q65, 18A15.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

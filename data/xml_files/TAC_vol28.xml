@@ -331,7 +331,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="243" url_path="" seq="7" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">436</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Tightly Bounded Completions</title>
+      <title locale="en">Tightly bounded completions</title>
       <abstract locale="en"><p>By a `completion' on a 2-category K we mean here an idempotent pseudomonad on K. We are particularly interested in pseudomonads that arise from KZ-doctrines. Motivated by a question of Lawvere, we compare the Cauchy completion, defined in the setting of V-Cat for V a symmetric monoidal closed category, with the Grothendieck completion, defined in the setting of S-Indexed Cat for S a topos. To this end we introduce a unified setting (`indexed enriched category theory') in which to formulate and study certain properties of KZ-doctrines. We find that, whereas all of the KZ-doctrines that are relevant to this discussion (Karoubi, Cauchy, Stack, Grothendieck) may be regarded as `bounded', only the Cauchy and the Grothendieck completions are `tightly bounded' - two notions that we introduce and study in this paper. Tightly bounded KZ-doctrines are shown to be idempotent. We also show, in a different approach to answering the motivating question, that the Cauchy completion (defined using `distributors') and the Grothendieck completion (defined using `generalized functors') are actually equivalent constructions.</p><p>2010 MSC: 18A25, 18A40, 18B25, 18C15, 18D10, 18D15, 18D20, 18D30.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -381,7 +381,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="53" url_path="" seq="8" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">437</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en"></title>
+      <title locale="en">Geometric morphisms of realizability toposes</title>
       <abstract locale="en"><p>We show that every geometric morphism between realizability toposes satisfies the condition that its inverse image commutes with the `constant object' functors, which was assumed by John Longley in his pioneering study of such morphisms. We also provide the answer to something which was stated as an open problem on Jaap van Oosten's book on realizability toposes: if a subtopos of a realizability topos is (co)complete, it must be either the topos of sets or the degenerate topos. And we present a new and simpler condition equivalent to the notion of computational density for applicative morphisms of Schonfinkel algebras.</p><p>2010 MSC: Primary 18B25, secondary 03D75.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -423,7 +423,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="369" url_path="" seq="9" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">438</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en"></title>
+      <title locale="en">Diagonal model structures</title>
       <abstract locale="en"><p>The category of bisimplicial presheaves carries a model structure for which the weak equivalences are defined by the diagonal functor and the cofibrations are monomorphisms. This model structure has the most cofibrations of a large family of model structures with weak equivalences defined by the diagonal. The diagonal structure for bisimplicial presheaves specializes to a diagonal model structure for bisimplicial sets, for which the fibrations are the Kan fibrations.</p><p>2010 MSC: Primary 18G30; Secondary 18F20, 55U35.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -796,7 +796,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="375" url_path="" seq="17" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">446</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Subgroupoids and Quotient Theories</title>
+      <title locale="en">Subgroupoids and quotient theories</title>
       <abstract locale="en"><p>Moerdijk's site description for equivariant sheaf toposes on open topological groupoids is used to give a proof for the (known, but apparently unpublished) proposition that if $H$ is a subgroupoid of an open topological groupoid $G$, then the topos of equivariant sheaves on $H$ is a subtopos of the topos of equivariant sheaves on $G$. This proposition is then applied to the study of quotient geometric theories and subtoposes. In particular, an intrinsic characterization is given of those subgroupoids that are definable by quotient theories.</p><p>2010 MSC: 18B25, 03G30, 18F99.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>

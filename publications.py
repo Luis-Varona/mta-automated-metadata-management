@@ -128,11 +128,11 @@ class Article:
     
     def __set_title__(self, source: str) -> None:
         source_iter = (line.strip() for line in source.split('\n'))
-        next(line for line in source_iter if '<title>' in line)
+        next(line for line in source_iter if '<h1>' in line)
         line = next(source_iter)
         title_lines = []
         
-        while '</title>' not in line:
+        while '</h1>' not in line:
             title_lines.append(line)
             line = next(source_iter)
         
@@ -306,7 +306,7 @@ class Article:
         elif (self.title.startswith('Quotients of unital')
               and self.authors == ['Volodymyr Lyubashenko', 'Oleksandr Manzyuk']):
             start_page, end_page = 405, 496
-        elif (self.title == 'The Faa di Bruno construction'
+        elif (self.title == 'The Fa&agrave; di Bruno construction'
               and self.authors == ['J.R.B. Cockett', 'R.A.G. Seely']):
             start_page, end_page = 394, 425
         elif (self.title == 'On the monad of internal groupoids'
@@ -327,7 +327,7 @@ class Article:
         elif (self.title.startswith('On reflective subcategories')
               and self.authors == ['J. Adamek', 'J. Rosicky']):
             start_page, end_page = 1306, 1318
-        elif (self.title == 'Stacks and sheaves of categories, II'
+        elif (self.title == 'Stacks and sheaves of categories as fibrant objects, II'
               and self.authors == ['Alexandru E. Stanculescu']):
             start_page, end_page = 330, 364
         elif (self.title == 'A note on injective hulls of posemigroups'

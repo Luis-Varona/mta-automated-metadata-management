@@ -355,7 +355,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="667" url_path="" seq="7" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">729</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">L'-localization in an $\infty$-topos</title>
+      <title locale="en">L'-localization in an &infin;-topos</title>
       <abstract locale="en"><p>We prove that, given any reflective subfibration L on an &infin;-topos E, there exists a reflective subfibration L' on E whose local maps are the L-separated maps, that is, the maps whose diagonals are L-local.</p><p>2010 MSC: 55P60, 18E35.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -807,7 +807,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="680" url_path="" seq="16" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">738</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Shifted double Lie--Rinehart algebras</title>
+      <title locale="en">Shifted double Lie-Rinehart algebras</title>
       <abstract locale="en"><p>We generalize the notions of shifted double Poisson and shifted double Lie-Rinehart structures to monoids in a symmetric monoidal abelian category. The main result is that an n-shifted double Lie-Rinehart structure on a pair (A,M) is equivalent to a non-shifted double Lie-Rinehart structure on the pair (A,M[-n]).</p><p>2020 MSC: 14A22, 18M85, 18M05.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -1421,7 +1421,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="396" url_path="" seq="29" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">751</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">On the construction of limits and colimits in $\infty$-categories</title>
+      <title locale="en">On the construction of limits and colimits in &infin;-categories</title>
       <abstract locale="en"><p>In previous work, we introduce an axiomatic framework within which to prove theorems about many varieties of infinite-dimensional categories simultaneously. In this paper, we establish criteria implying that an &infin;-category --- for instance, a quasi-category, a complete Segal space, or a Segal category --- is complete and cocomplete, admitting limits and colimits indexed by any small simplicial set. Our strategy is to build (co)limits of diagrams indexed by a simplicial set inductively from (co)limits of restricted diagrams indexed by the pieces of its skeletal filtration. We show directly that the modules that express the universal properties of (co)limits of diagrams of these shapes are reconstructible as limits of the modules that express the universal properties of (co)limits of the restricted diagrams. We also prove that the Yoneda embedding preserves and reflects limits in a suitable sense, and deduce our main theorems as a consequence.</p><p>2020 MSC: 18A30, 18G55, 55U35, 55U40.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -2155,7 +2155,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="709" url_path="" seq="45" access_status="0" date_published="2024-11-13" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">767</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">On bicolimits of $ C^* $-categories</title>
+      <title locale="en">On bicolimits of C*-categories</title>
       <abstract locale="en"><p>We discuss a number of general constructions concerning additive C*-categories, focussing in particular on establishing the existence of bicolimits. As an illustration of our results we show that balanced tensor products of module categories over C*-tensor categories exist without any finiteness assumptions.</p><p>2020 MSC: 18N10, 46M15, 46L08.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
