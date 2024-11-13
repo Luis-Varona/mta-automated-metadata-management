@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <articles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">360</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="360" created_at="2024-11-13" date_created="" file_id="360" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="360" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-01.pdf</name>
@@ -42,7 +42,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">361</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="361" created_at="2024-11-13" date_created="" file_id="361" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="361" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-02.pdf</name>
@@ -83,7 +83,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">362</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="362" created_at="2024-11-13" date_created="" file_id="362" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="362" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-03.pdf</name>
@@ -124,7 +124,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">363</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="363" created_at="2024-11-13" date_created="" file_id="363" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="363" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-04.pdf</name>
@@ -164,7 +164,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">364</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="364" created_at="2024-11-13" date_created="" file_id="364" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="364" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-05.pdf</name>
@@ -207,7 +207,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">365</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="365" created_at="2024-11-13" date_created="" file_id="365" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="365" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-06.pdf</name>
@@ -262,7 +262,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">366</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="366" created_at="2024-11-13" date_created="" file_id="366" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="366" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-07.pdf</name>
@@ -304,7 +304,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">367</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="367" created_at="2024-11-13" date_created="" file_id="367" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="367" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-08.pdf</name>
@@ -345,7 +345,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">368</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="368" created_at="2024-11-13" date_created="" file_id="368" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="368" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-09.pdf</name>
@@ -388,7 +388,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">369</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="369" created_at="2024-11-13" date_created="" file_id="369" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="369" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-10.pdf</name>
@@ -441,7 +441,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">370</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="370" created_at="2024-11-13" date_created="" file_id="370" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="370" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-11.pdf</name>
@@ -489,7 +489,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">371</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="371" created_at="2024-11-13" date_created="" file_id="371" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="371" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-12.pdf</name>
@@ -535,7 +535,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">372</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="372" created_at="2024-11-13" date_created="" file_id="372" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="372" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-13.pdf</name>
@@ -581,7 +581,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">373</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="373" created_at="2024-11-13" date_created="" file_id="373" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="373" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-14.pdf</name>
@@ -625,7 +625,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">374</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="374" created_at="2024-11-13" date_created="" file_id="374" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="374" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-15.pdf</name>
@@ -673,7 +673,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">375</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="375" created_at="2024-11-13" date_created="" file_id="375" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="375" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-16.pdf</name>
@@ -716,7 +716,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">376</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="376" created_at="2024-11-13" date_created="" file_id="376" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="376" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-17.pdf</name>
@@ -761,7 +761,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">377</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="377" created_at="2024-11-13" date_created="" file_id="377" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="377" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-18.pdf</name>
@@ -813,7 +813,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">378</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="378" created_at="2024-11-13" date_created="" file_id="378" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="378" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-19.pdf</name>
@@ -865,7 +865,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">379</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="379" created_at="2024-11-13" date_created="" file_id="379" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="379" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-20.pdf</name>
@@ -917,7 +917,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">380</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="380" created_at="2024-11-13" date_created="" file_id="380" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="380" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-21.pdf</name>
@@ -970,7 +970,7 @@
     </publication>
   </article>
 
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="2024-11-13" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">381</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="381" created_at="2024-11-13" date_created="" file_id="381" stage="submission" updated_at="2024-11-13" viewable="true" genre="Article Text" source_submission_file_id="381" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">25-22.pdf</name>

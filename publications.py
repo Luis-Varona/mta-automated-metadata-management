@@ -34,7 +34,7 @@ class Article:
         out = StringIO()
         out.write(f'{t}<article xmlns="http://pkp.sfu.ca" ' \
                   'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" ' \
-                  'date_submitted="{date}" status="3" submission_progress="" ' \
+                  f'date_submitted="{date}" status="3" submission_progress="" ' \
                   'current_publication_id="1" stage="production" ' \
                   'xsi:schemaLocation="http://pkp.sfu.ca native.xsd">\n')
         out.write(f'{t * 2}<id type="internal" advice="ignore">{file_id}</id>\n')
