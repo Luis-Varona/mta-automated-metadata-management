@@ -52,7 +52,7 @@ class Article:
         out.write(f'{t * 2}</submission_file>\n')
         
         out.write(f'{t * 2}<publication ' \
-                  'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" ' \
+                  'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1" ' \
                   f'status="3" primary_contact_id="{ids_this[0]}" url_path="" ' \
                   f'seq="{seq_in_vol}" access_status="0" date_published="{date}" ' \
                   'section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">\n')
@@ -284,8 +284,8 @@ class Article:
             start_page, end_page = 146, 155
         elif (self.title.startswith('Doctrines whose structure')
               and self.authors == ['F. Marmolejo']):
-            start_page, end_page = 22, 44
-        elif (self.title == 'Multilinearity of sketches'
+            start_page, end_page = 24, 44
+        elif (self.title == 'Multilinearity of Sketches'
               and self.authors == ['David B. Benson']):
             start_page, end_page = 269, 277
         elif (self.title == 'Distributive laws for pseudomonads'
@@ -359,11 +359,9 @@ class Volume:
         
         vol_err = 'Each article must be from the same volume.'
         assert all(article.volume == self.volume for article in articles), vol_err
-        
-        if self.volume != 3: # Vol. 3 seems to truly have overlapping articles 1 and 2?
-            sort_err = 'Articles must be sorted by page range.'
-            assert all(articles[i].end_page + 1 == articles[i + 1].start_page
-                       for i in range(len(articles) - 1)), sort_err
+        sort_err = 'Articles must be sorted by page range.'
+        assert all(articles[i].end_page + 1 == articles[i + 1].start_page
+                   for i in range(len(articles) - 1)), sort_err
         
         with gzip.open('data/volume_titles.gz', 'rb') as f:
             vol_title = pickle.load(f)[self.volume]
