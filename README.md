@@ -1,6 +1,6 @@
 # mta-tac-metadata-collection
 
-Collecting and managing XML metadata for Mount Allison University's *Theory and Applications of Categories* journal. Preparing to upload each volume to the *Open Journal Systens* database. **STATUS:**
+Collecting and managing XML metadata for Mount Allison University's *Theory and Applications of Categories* journal. Preparing to upload each volume to the Public Knowledge Project's *Open Journal Systems* database. **STATUS:**
 
 1. Figure out proper version/revision numbering (currently set to 1 by default)
 2. Fix mapping from &lt;br&gt; and &lt;p&gt; (in the abstracts) to escape sequences
