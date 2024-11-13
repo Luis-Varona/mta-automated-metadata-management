@@ -1128,54 +1128,13 @@
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
     <id type="internal" advice="ignore">853</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-      <name locale="en">38-31.pdf</name>
-      <file id="853" filesize="424350" extension="pdf">
-        <href src="http://www.tac.mta.ca/tac/volumes/38/31/38-31.pdf"/>
-      </file>
-    </submission_file>
-    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-      <id type="internal" advice="ignore">853</id>
-      <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">The monotone-light factorization for 2-categories via 2-preorders</title>
-      <abstract locale="en"><p>It is shown that the reflection 2Cat --> 2PreOrd of the category of all 2-categories into the category of 2-preorders determines a monotone-light factorization system on 2Cat and that the light morphisms are precisely the 2-functors faithful on 2-cells with respect to the vertical structure. In order to achieve such result it was also proved that the reflection 2Cat --> 2Preord has stable units, a stronger condition than admissibility in categorical Galois theory, and that the 2-functors surjective both on horizontally and on vertically composable triples of 2-cells are the effective descent morphisms in 2Cat.</p><p>2020 MSC: 18A32, 18E50, 18N10.</p></abstract>
-      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
-      <copyrightHolder locale="en">author</copyrightHolder>
-      <copyrightYear>2022</copyrightYear>
-      <keywords locale="en">
-        <keyword>Monotone-light factorization</keyword>
-        <keyword>2-categories</keyword>
-      </keywords>
-      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
-          <givenname locale="en">Jo&atilde;o J.</givenname>
-          <familyname locale="en">Xarez</familyname>
-          <email>madeup@email.org</email>
-        </author>
-      </authors>
-      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <id type="internal" advice="ignore">853</id>
-        <name locale="en">PDF</name>
-        <seq>24</seq>
-        <submission_file_ref id="853"/>
-      </article_galley>
-      <issue_identification>
-        <volume>38</volume>
-        <year>2022</year>
-      </issue_identification>
-      <pages>1014-1017</pages>
-    </publication>
-  </article>
-
-  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-    <id type="internal" advice="ignore">854</id>
-    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">38-25.pdf</name>
-      <file id="854" filesize="575743" extension="pdf">
+      <file id="853" filesize="575743" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/38/25/38-25.pdf"/>
       </file>
     </submission_file>
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-      <id type="internal" advice="ignore">854</id>
+      <id type="internal" advice="ignore">853</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Pushforwards and Gauge Transformations for Categorical Connections</title>
       <abstract locale="en"><p>We construct and establish results for a categorical counterpart of pushforwards of connections on principal bundles. This categorical pushforward takes as input a categorical connection A_P on a categorical bundle P and an appropriate functor S: P -> Q and outputs a categorical connection S_*A_P on the categorical bundle Q. Applying this construction to the case of categorical bundles arising from decorated path spaces in principal bundles, we obtain a transformation of classical connections that combines the traditional gauge transformation with an affine translation.</p><p>2020 MSC: Primary: 18D05; Secondary: 20C99.</p></abstract>
@@ -1206,10 +1165,10 @@
         </author>
       </authors>
       <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <id type="internal" advice="ignore">854</id>
+        <id type="internal" advice="ignore">853</id>
         <name locale="en">PDF</name>
-        <seq>25</seq>
-        <submission_file_ref id="854"/>
+        <seq>24</seq>
+        <submission_file_ref id="853"/>
       </article_galley>
       <issue_identification>
         <volume>38</volume>
@@ -1220,15 +1179,15 @@
   </article>
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-    <id type="internal" advice="ignore">855</id>
+    <id type="internal" advice="ignore">854</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">38-26.pdf</name>
-      <file id="855" filesize="338269" extension="pdf">
+      <file id="854" filesize="338269" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/38/26/38-26.pdf"/>
       </file>
     </submission_file>
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-      <id type="internal" advice="ignore">855</id>
+      <id type="internal" advice="ignore">854</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Composing PROBs</title>
       <abstract locale="en"><p>A PROB is a "product and braid" category. Such categories can be used to encode the structure borne by an object in a braided monoidal category. In this paper we provide PROBs whose categories of algebras in a braided monoidal category are equivalent to the categories of monoids and comonoids using the category associated to the braid crossed simplicial group of Fiedorowicz and Loday. We show that PROBs can be composed by generalizing the machinery introduced by Lack for PROPs. We use this to define a PROB for bimonoids in a braided monoidal category as a composite of the PROBs for monoids and comonoids.</p><p>2020 MSC: 18M15, 16T10.</p></abstract>
@@ -1251,10 +1210,10 @@
         </author>
       </authors>
       <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <id type="internal" advice="ignore">855</id>
+        <id type="internal" advice="ignore">854</id>
         <name locale="en">PDF</name>
-        <seq>26</seq>
-        <submission_file_ref id="855"/>
+        <seq>25</seq>
+        <submission_file_ref id="854"/>
       </article_galley>
       <issue_identification>
         <volume>38</volume>
@@ -1265,15 +1224,15 @@
   </article>
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-    <id type="internal" advice="ignore">856</id>
+    <id type="internal" advice="ignore">855</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">38-27.pdf</name>
-      <file id="856" filesize="557199" extension="pdf">
+      <file id="855" filesize="557199" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/38/27/38-27.pdf"/>
       </file>
     </submission_file>
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-      <id type="internal" advice="ignore">856</id>
+      <id type="internal" advice="ignore">855</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Quantale-Enriched Multicategories Via Actions</title>
       <abstract locale="en"><p>In this communication, motivated by a classical result that relates cocomplete quantale-enriched categories to modules over a quantale, we prove a similar result for quantale-enriched multicategories.</p><p>2020 MSC: 18M05, 18M65, 08B30, 18F75, 18D20, 18D25.</p></abstract>
@@ -1295,10 +1254,10 @@
         </author>
       </authors>
       <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <id type="internal" advice="ignore">856</id>
+        <id type="internal" advice="ignore">855</id>
         <name locale="en">PDF</name>
-        <seq>27</seq>
-        <submission_file_ref id="856"/>
+        <seq>26</seq>
+        <submission_file_ref id="855"/>
       </article_galley>
       <issue_identification>
         <volume>38</volume>
@@ -1309,15 +1268,15 @@
   </article>
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-    <id type="internal" advice="ignore">857</id>
+    <id type="internal" advice="ignore">856</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">38-28.pdf</name>
-      <file id="857" filesize="458550" extension="pdf">
+      <file id="856" filesize="458550" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/38/28/38-28.pdf"/>
       </file>
     </submission_file>
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-      <id type="internal" advice="ignore">857</id>
+      <id type="internal" advice="ignore">856</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">A topos for continuous logic</title>
       <abstract locale="en"><p>We suggest an ordering for the predicates in continuous logic so that the semantics of continuous logic can be formulated as a hyperdoctrine. We show that this hyperdoctrine can be embedded into the hyperdoctrine of subobjects of a suitable Grothendieck topos. For this embedding we use a simplification of the hyperdoctrine for continuous logic, whose category of equivalence relations is equivalent to the category of complete metric spaces and uniformly continuous maps.</p><p>2020 MSC: 03C66, 03G30, 18F10.</p></abstract>
@@ -1344,10 +1303,10 @@
         </author>
       </authors>
       <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <id type="internal" advice="ignore">857</id>
+        <id type="internal" advice="ignore">856</id>
         <name locale="en">PDF</name>
-        <seq>28</seq>
-        <submission_file_ref id="857"/>
+        <seq>27</seq>
+        <submission_file_ref id="856"/>
       </article_galley>
       <issue_identification>
         <volume>38</volume>
@@ -1358,15 +1317,15 @@
   </article>
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-    <id type="internal" advice="ignore">858</id>
+    <id type="internal" advice="ignore">857</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">38-29.pdf</name>
-      <file id="858" filesize="448642" extension="pdf">
+      <file id="857" filesize="448642" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/38/29/38-29.pdf"/>
       </file>
     </submission_file>
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-      <id type="internal" advice="ignore">858</id>
+      <id type="internal" advice="ignore">857</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Gray-categories model algebraic tricategories</title>
       <abstract locale="en"><p>Lack described a Quillen model structure on the category GrayCat of Gray-categories and Gray-functors, for which the weak equivalences are the weak 3-equivalences. Restricted to Gray-groupoids, the resulting homotopy category is equivalent to the homotopy category of 3-types. In this note, we adapt the technique of Gurski, Johnson, and Osorno to show the localization of GrayCat at the weak equivalences is equivalent to the category of algebraic tricategories and pseudo-natural equivalence classes of weak 3-functors. This finishes establishing the homotopy hypothesis for algebraic trigroupoids.</p><p>2020 MSC: 18N20 and 18N40.</p></abstract>
@@ -1386,10 +1345,10 @@
         </author>
       </authors>
       <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-        <id type="internal" advice="ignore">858</id>
+        <id type="internal" advice="ignore">857</id>
         <name locale="en">PDF</name>
-        <seq>29</seq>
-        <submission_file_ref id="858"/>
+        <seq>28</seq>
+        <submission_file_ref id="857"/>
       </article_galley>
       <issue_identification>
         <volume>38</volume>
@@ -1400,15 +1359,15 @@
   </article>
 
   <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-    <id type="internal" advice="ignore">859</id>
+    <id type="internal" advice="ignore">858</id>
     <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <name locale="en">38-30.pdf</name>
-      <file id="859" filesize="734611" extension="pdf">
+      <file id="858" filesize="734611" extension="pdf">
         <href src="http://www.tac.mta.ca/tac/volumes/38/30/38-30.pdf"/>
       </file>
     </submission_file>
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
-      <id type="internal" advice="ignore">859</id>
+      <id type="internal" advice="ignore">858</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
       <title locale="en">Homotopy Equivalent Algebraic Structures in Multicategories and Permutative Categories</title>
       <abstract locale="en"><p>We show that the free construction from multicategories to permutative categories is a categorically-enriched non-symmetric multifunctor. Our main result then shows that the induced functor between categories of algebras is an equivalence of homotopy theories. We describe an application to ring categories.</p><p>2020 MSC: Primary: 18M65; Secondary: 55P42, 18M05.</p></abstract>
@@ -1434,6 +1393,47 @@
         </author>
       </authors>
       <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <id type="internal" advice="ignore">858</id>
+        <name locale="en">PDF</name>
+        <seq>29</seq>
+        <submission_file_ref id="858"/>
+      </article_galley>
+      <issue_identification>
+        <volume>38</volume>
+        <year>2022</year>
+      </issue_identification>
+      <pages>1156-1208</pages>
+    </publication>
+  </article>
+
+  <article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" date_submitted="{date}" status="3" submission_progress="" current_publication_id="1" stage="production" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+    <id type="internal" advice="ignore">859</id>
+    <submission_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="{file_id}" created_at="{date}" date_created="" file_id="{file_id}" stage="submission" updated_at="{date}" viewable="true" genre="Article Text" source_submission_file_id="{file_id}" uploader="admin" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <name locale="en">38-31.pdf</name>
+      <file id="859" filesize="424350" extension="pdf">
+        <href src="http://www.tac.mta.ca/tac/volumes/38/31/38-31.pdf"/>
+      </file>
+    </submission_file>
+    <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+      <id type="internal" advice="ignore">859</id>
+      <id type="doi" advice="update">10.1119/5.0158200</id>
+      <title locale="en">The monotone-light factorization for 2-categories via 2-preorders</title>
+      <abstract locale="en"><p>It is shown that the reflection 2Cat --> 2PreOrd of the category of all 2-categories into the category of 2-preorders determines a monotone-light factorization system on 2Cat and that the light morphisms are precisely the 2-functors faithful on 2-cells with respect to the vertical structure. In order to achieve such result it was also proved that the reflection 2Cat --> 2Preord has stable units, a stronger condition than admissibility in categorical Galois theory, and that the 2-functors surjective both on horizontally and on vertically composable triples of 2-cells are the effective descent morphisms in 2Cat.</p><p>2020 MSC: 18A32, 18E50, 18N10.</p></abstract>
+      <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
+      <copyrightHolder locale="en">author</copyrightHolder>
+      <copyrightYear>2022</copyrightYear>
+      <keywords locale="en">
+        <keyword>Monotone-light factorization</keyword>
+        <keyword>2-categories</keyword>
+      </keywords>
+      <authors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
+        <author include_in_browse="true" user_group_ref="Author" seq="{i}" id="{author_id}">
+          <givenname locale="en">Jo&atilde;o J.</givenname>
+          <familyname locale="en">Xarez</familyname>
+          <email>madeup@email.org</email>
+        </author>
+      </authors>
+      <article_galley xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en" url_path="" approved="false" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
         <id type="internal" advice="ignore">859</id>
         <name locale="en">PDF</name>
         <seq>30</seq>
@@ -1443,7 +1443,7 @@
         <volume>38</volume>
         <year>2022</year>
       </issue_identification>
-      <pages>1156-1208</pages>
+      <pages>1209-1226</pages>
     </publication>
   </article>
 

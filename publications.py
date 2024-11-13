@@ -1,5 +1,6 @@
 # %%
-import numpy as np
+import gzip
+import pickle
 import re
 import requests
 
@@ -22,10 +23,12 @@ class Article:
         return re.sub(r"\[|\]|[']", '', f'{self.authors} ({self.year})')
     
     def get_XML_block(self, file_id: int, seq_in_vol: int, vol_title: Optional[str]) -> str:
+        with gzip.open('data/author_ids.gz', 'rb') as f:
+            author_ids = pickle.load(f)
+        
+        ids_this = [author_ids[author] for author in self.authors]
         date = dt.now().strftime('%Y-%m-%d')
         size = int(requests.head(self.pdf_src).headers['Content-Length'])
-        author_ids = np.load('data/author_ids.npz', allow_pickle=True)['author_ids'].item()
-        ids_this = [author_ids[author] for author in self.authors]
         t = '  '
         
         out = StringIO()
@@ -134,6 +137,10 @@ class Article:
             line = next(source_iter)
         
         title = re.sub(r'\s+|<p>|</p>', ' ', ' '.join(title_lines)).strip(' ,')
+        
+        if title.upper() == 'APPROXIMABLE CONCEPTS, CHU SPACES, AND INFORMATION SYSTEMS':
+            title = 'Approximable concepts, Chu spaces, and information systems'
+        
         self.title = title
     
     def __set_authors__(self, source: str) -> None:
@@ -263,17 +270,84 @@ class Article:
             
             return idxs
         
-        source_iter = iter(reversed([line.strip() for line in source.split('\n')]))
-        pp_line = next(line for line in source_iter if pp_idxs(line))
-        idxs = pp_idxs(pp_line)
-        pp_range = pp_line[idxs[0]:idxs[1]].split('-')
-        
-        # Cases where the page range was incorrectly entered in the TAC HTML source
-        if self.title == 'Distributive laws for pseudomonads':
+        # Cases where the page range was incorrectly entered in the TAC HTML source.
+        # Later, I'll clean this up, as it's really cluttering the Article class...
+        # Maybe scrape the main site instead to reduce (but not eliminate) such cases?
+        if (self.title.startswith('Functorial and algebraic properties')
+            and self.authors == ['Luis-Javier Hernandez-Paricio']):
+            start_page, end_page = 10, 53
+        elif (self.title == 'Kan extensions along promonoidal functors'
+              and self.authors == ['Brian Day', 'Ross Street']):
+            start_page, end_page = 72, 77
+        elif (self.title.startswith('A forbidden-suborder characterization')
+              and self.authors == ['Robert Dawson']):
+            start_page, end_page = 146, 155
+        elif (self.title.startswith('Doctrines whose structure')
+              and self.authors == ['F. Marmolejo']):
+            start_page, end_page = 22, 44
+        elif (self.title == 'Multilinearity of sketches'
+              and self.authors == ['David B. Benson']):
+            start_page, end_page = 269, 277
+        elif (self.title == 'Distributive laws for pseudomonads'
+              and self.authors == ['Francisco Marmolejo']):
             start_page, end_page = 91, 147
-        elif self.title == r'An algebraic definition of ($\infty$,n)-categories':
+        elif (self.title == 'Normal functors and strong protomodularity'
+              and self.authors == ['Dominique Bourn']):
+            start_page, end_page = 206, 218
+        elif (self.title.startswith('On the object-wise tensor product')
+              and self.authors == ['Marek Golasinski']):
+            start_page, end_page = 227, 235
+        elif (self.title.startswith('Algebraically closed and existentially closed')
+              and self.authors == ['Michel Hebert']):
+            start_page, end_page = 270, 298
+        elif (self.title.startswith('Approximable concepts, Chu spaces')
+              and self.authors == ['Guo-Qiang Zhang', 'Gongqin Shen']):
+            start_page, end_page = 80, 102
+        elif (self.title.startswith('Quotients of unital')
+              and self.authors == ['Volodymyr Lyubashenko', 'Oleksandr Manzyuk']):
+            start_page, end_page = 405, 496
+        elif (self.title == 'The Faa di Bruno construction'
+              and self.authors == ['J.R.B. Cockett', 'R.A.G. Seely']):
+            start_page, end_page = 394, 425
+        elif (self.title == 'On the monad of internal groupoids'
+              and self.authors == ['Dominique Bourn']):
+            start_page, end_page = 150, 165
+        elif (self.title.startswith('Complicial structures in the nerves')
+              and self.authors == ['Richard Steiner']):
+            start_page, end_page = 780, 803
+        elif (self.title.startswith('A Bayesian characterization')
+              and self.authors == ['John C. Baez', 'Tobias Fritz']):
+            start_page, end_page = 422, 456
+        elif (self.title.startswith('The weakly globular double category')
+              and self.authors == ['Simona Paoli', 'Dorette Pronk']):
+            start_page, end_page = 696, 774
+        elif (self.title.startswith('An algebraic definition')
+              and self.authors == ['Camell Kachour']):
             start_page, end_page = 775, 807
+        elif (self.title.startswith('On reflective subcategories')
+              and self.authors == ['J. Adamek', 'J. Rosicky']):
+            start_page, end_page = 1306, 1318
+        elif (self.title == 'Stacks and sheaves of categories, II'
+              and self.authors == ['Alexandru E. Stanculescu']):
+            start_page, end_page = 330, 364
+        elif (self.title == 'A note on injective hulls of posemigroups'
+              and self.authors == ['Changchun Xia', 'Shengwei Han', 'Bin Zhao']):
+            start_page, end_page = 254, 257
+        elif (self.title == 'A bicategory of decorated cospans'
+              and self.authors == ['Kenny Courser']):
+            start_page, end_page = 995, 1027
+        elif (self.title.startswith('A construction of certain weak colimits')
+              and self.authors == ['Descotte M.E.', 'Dubuc E.J.', 'Szyld M.']):
+            start_page, end_page = 193, 215
+        elif (self.title.startswith('Crossed products of crossed modules')
+              and self.authors[0] == 'J.N. Alonso Alvarez'):
+            start_page, end_page = 867, 897
         else:
+            source_iter = iter([line.strip() for line in source.split('\n')])
+            next(line for line in source_iter if 'Keywords:' in line)
+            pp_line = next(line for line in source_iter if pp_idxs(line))
+            idxs = pp_idxs(pp_line)
+            pp_range = pp_line[idxs[0]:idxs[1]].split('-')
             start_page, end_page = int(pp_range[0]), int(pp_range[-1])
         
         self.start_page, self.end_page = start_page, end_page
@@ -282,18 +356,20 @@ class Article:
 class Volume:
     def __init__(self, articles: list[Article], first_id: int):
         self.volume = articles[0].volume
+        
         vol_err = 'Each article must be from the same volume.'
         assert all(article.volume == self.volume for article in articles), vol_err
-        sort_err = 'Articles must be sorted by page range.'
-        assert all(articles[i].start_page < articles[i + 1].start_page
-                   for i in range(len(articles) - 1)), sort_err
+        
+        if self.volume != 3: # Vol. 3 seems to truly have overlapping articles 1 and 2?
+            sort_err = 'Articles must be sorted by page range.'
+            assert all(articles[i].end_page + 1 == articles[i + 1].start_page
+                       for i in range(len(articles) - 1)), sort_err
+        
+        with gzip.open('data/volume_titles.gz', 'rb') as f:
+            vol_title = pickle.load(f)[self.volume]
         
         self.year = articles[0].year
-        
-        vol_title = np.load('data/volume_titles.npz', allow_pickle=True) \
-            ['volume_titles'].item()[self.volume]
         self.title = None if vol_title.isdigit() else vol_title
-        
         self.articles = articles
         self.file_ids = list(range(first_id, first_id + len(articles)))
     

@@ -1,9 +1,10 @@
 # %%
-import numpy as np
+import gzip
+import pickle
 import re
 import requests
 
-from publications import Article, Volume # Relative import from publications.py
+from publications import Article, Volume # Relative imports from publications.py
 from os import makedirs
 
 # %%
@@ -11,7 +12,9 @@ def main():
     save_volume_titles(path='data')
     save_sources(path='data')
     
-    sources = np.load('data/sources.npz')['sources']
+    with gzip.open('data/sources.gz', 'rb') as f:
+        sources = pickle.load(f)
+    
     articles = [Article(source) for source in sources]
     articles = sorted(articles, key=lambda article: (article.volume, article.start_page))
     
@@ -39,7 +42,9 @@ def save_volume_titles(*, path: str = '') -> None:
         line = next(source_iter)
     
     volume_titles = dict(reversed(list(volume_titles.items())))
-    np.savez_compressed(f'{path}/volume_titles.npz', volume_titles=volume_titles)
+    
+    with gzip.open(f'{path}/volume_titles.gz', 'wb') as f:
+        pickle.dump(volume_titles, f)
 
 # %%
 def save_sources(*, path: str = '') -> None:
@@ -47,10 +52,14 @@ def save_sources(*, path: str = '') -> None:
         makedirs(path, exist_ok = True)
     
     site = 'http://www.tac.mta.ca/tac/'
-    site_source = [line.strip() for line in requests.get(site).text.split('\n')]
-    links = np.unique([line.split('"')[1] for line in site_source if 'abs.html' in line])
-    sources = [requests.get(site + link).text for link in links]
-    np.savez_compressed(f'{path}/sources.npz', sources=sources)
+    
+    with requests.Session() as session:
+        site_source = [line.strip() for line in session.get(site).text.split('\n')]
+        links = {line.split('"')[1] for line in site_source if 'abs.html' in line}
+        sources = [session.get(f'{site}{link}').text for link in links]
+    
+    with gzip.open(f'{path}/sources.gz', 'wb') as f:
+        pickle.dump(sources, f)
 
 # %%
 def save_author_ids(authors: list[str], *, path: str = '') -> None:
@@ -65,15 +74,17 @@ def save_author_ids(authors: list[str], *, path: str = '') -> None:
             author_ids[author] = author_id
             author_id += 1
     
-    np.savez_compressed(f'{path}/author_ids.npz', author_ids=author_ids)
+    with gzip.open(f'{path}/author_ids.gz', 'wb') as f:
+        pickle.dump(author_ids, f)
 
 # %%
 def save_metadata(articles: list, *, path: str = '') -> None:
     if path != '':
         makedirs(f'{path}/xml_files', exist_ok = True)
     
-    vol_nums = np.load('data/volume_titles.npz',
-                       allow_pickle=True)['volume_titles'].item().keys()
+    with gzip.open('data/volume_titles.gz', 'rb') as f:
+        vol_nums = pickle.load(f).keys()
+    
     metadata = [''] * len(vol_nums)
     article_iter = iter(articles)
     article = next(article_iter)
@@ -95,7 +106,8 @@ def save_metadata(articles: list, *, path: str = '') -> None:
         with open(f'{path}/xml_files/TAC_vol{vol}.xml', 'w') as f:
             f.write(xml)
     
-    np.savez_compressed(f'{path}/metadata.npz', metadata=metadata)
+    with gzip.open(f'{path}/metadata.gz', 'wb') as f:
+        pickle.dump(metadata, f)
 
 # %%
 main()

@@ -195,7 +195,7 @@
     <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="MEOW" status="3" primary_contact_id="{ids_this[0]}" url_path="" seq="{seq_in_vol}" access_status="0" date_published="{date}" section_ref="ART" xsi:schemaLocation="http://pkp.sfu.ca native.xsd">
       <id type="internal" advice="ignore">242</id>
       <id type="doi" advice="update">10.1119/5.0158200</id>
-      <title locale="en">Approximable Concepts, Chu spaces, and information systems</title>
+      <title locale="en">Approximable concepts, Chu spaces, and information systems</title>
       <abstract locale="en"><p>This paper serves to bring three independent but important areas of computer science to a common meeting point: Formal Concept Analysis (FCA), Chu Spaces, and Domain Theory (DT). Each area is given a perspective or reformulation that is conducive to the flow of ideas and to the exploration of cross-disciplinary connections. Among other results, we show that the notion of state in Scott's information system corresponds precisely to that of formal concepts in FCA with respect to all finite Chu spaces, and the entailment relation corresponds to ``association rules". We introduce, moreover, the notion of <i>approximable concept</i> and show that approximable concepts represent algebraic lattices which are identical to Scott domains except the inclusion of a top element. This notion serves as a stepping stone in recent work in which a new notion of morphism on formal contexts results in a category equivalent to (a) the category of complete algebraic lattices and Scott continuous functions, and (b) a category of information systems and approximable mappings.</p><p>2000 MSC: 03B70, 06A15, 06B23, 08A70, 68P99, 68Q55.</p></abstract>
       <licenseUrl>http://www.tac.mta.ca/tac/consent.html</licenseUrl>
       <copyrightHolder locale="en">author</copyrightHolder>
@@ -228,7 +228,7 @@
         <year>2006</year>
         <title locale="en">Chu spaces</title>
       </issue_identification>
-      <pages>79-102</pages>
+      <pages>80-102</pages>
     </publication>
   </article>
 
